@@ -1,7 +1,5 @@
 [patch]
 title = "SoundMod (BN6 Falzar)"
-version = "0.0.0"
-author = "idealexe <omega_8810@yahoo.co.jp>"
-base-game = "MEGAMAN6_FXX"
-compatible-patches = []
-compatible-with = "bn6"
+authors = ["idealexe <omega_8810@yahoo.co.jp>"]
+for-rom = "MEGAMAN6_FXX"
+netplay-compatibility = "bn6"

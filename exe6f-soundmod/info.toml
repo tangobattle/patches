@@ -1,7 +1,5 @@
 [patch]
 title = "シリーズ音源&曲追加（EXE6 ファルザー）"
-version = "0.0.0"
-author = "idealexe <omega_8810@yahoo.co.jp>"
-base-game = "ROCKEXE6_RXX"
-compatible-patches = []
-compatible-with = "exe6"
+authors = ["idealexe <omega_8810@yahoo.co.jp>"]
+for-rom = "ROCKEXE6_RXX"
+netplay-compatibility = "exe6"
