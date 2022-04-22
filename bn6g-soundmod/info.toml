@@ -1,0 +1,7 @@
+[patch]
+title = "SoundMod (BN6 Gregar)"
+version = "0.0.0"
+author = "idealexe <omega_8810@yahoo.co.jp>"
+base-game = "MEGAMAN6_GXX"
+compatible-patches = []
+compatible-with = "bn6"
