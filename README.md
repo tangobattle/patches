@@ -36,10 +36,10 @@ You must place your patch in your directory versioned with [Semantic Versioning]
 
 Tango interprets the version as follows:
 
--   A major version change (X.y.z) assumes everything has changed significantly. If a replay was created on an older major version of the patch, Tango will refuse to play it with the newer version.
+-   A **major version change (X.y.z)** assumes everything has changed significantly. If a replay was created on an older major version of the patch, Tango will **refuse** playing it with the newer version.
 
--   A minor version change (x.Y.z) assumes the changes will not adversely impact save state loading: there may be transient issues with e.g. VRAM but they are cosmetic only. Tango will prefer playing replays created on older minor versions with newer minor versions, but this is not a hard requirement if Tango cannot find an exactly matching patch.
+-   A **minor version change (x.Y.z)** assumes the changes will not adversely impact save state loading: there may be transient issues with e.g. VRAM but they are cosmetic only. Tango will **avoid** playing replays created on older minor versions with newer minor versions, but this is not a hard requirement if Tango cannot find an exactly matching patch.
 
--   A patch version change (x.y.Z) assumes the changes will not impact save state loading at all, including VRAM. Tango will play replays created on older patch versions with newer patch versions.
+-   A **patch version change (x.y.Z)** assumes the changes will not impact save state loading at all, including VRAM. Tango will **prefer** playing replays created on older patch versions with newer patch versions.
 
 **Once a patch version is submitted, you may not delete it unless it contains sensitive information.** This is such to ensure replays on older versions may always be played.
