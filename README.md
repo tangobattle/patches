@@ -22,6 +22,14 @@ The human-readable title of your patch. This will be displayed to users in the U
 
 The list of authors for your patch, formatted as `Your Name <your@email.address>`.
 
+##### The `source` field
+
+The URL to the source of the patch.
+
+##### The `license` field
+
+The license for the patch as an [SPDX license identifier](https://spdx.dev/licenses/). If this is not present, the license is assumed to be `UNLICENSED`.
+
 ##### The `for-rom` field
 
 The ROM that this patch applies to. Tango matches patches based on the ROM title, which usually looks something like `MEGAMAN6_FXX`.
