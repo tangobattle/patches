@@ -2,5 +2,5 @@
 title = "シリーズ音源&曲追加（EXE6 グレイガ）"
 authors = ["idealexe <omega_8810@yahoo.co.jp>"]
 source = "https://github.com/idealexe/EXE6_Tools"
-for-rom = "ROCKEXE6_GXX"
-netplay-compatibility = "exe6"
+for_rom = "ROCKEXE6_GXX"
+netplay_compatibility = "exe6"

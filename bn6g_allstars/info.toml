@@ -1,9 +1,9 @@
 [patch]
-title = "All-Stars (BN6 Falzar)"
+title = "All-Stars (BN6 Gregar)"
 authors = [
     "luckytyphlosion <10688458+luckytyphlosion@users.noreply.github.com>",
 ]
 source = "https://github.com/luckytyphlosion/bn6-all-stars"
 license = "MIT"
-for-rom = "MEGAMAN6_FXX"
-netplay-compatibility = "bn6-allstars"
+for_rom = "MEGAMAN6_GXX"
+netplay_compatibility = "bn6-allstars"

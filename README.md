@@ -30,13 +30,13 @@ The URL to the source of the patch.
 
 The license for the patch as an [SPDX license identifier](https://spdx.dev/licenses/). If this is not present, the license is assumed to be `UNLICENSED`.
 
-##### The `for-rom` field
+##### The `for_rom` field
 
 The ROM that this patch applies to. Tango matches patches based on the ROM title, which usually looks something like `MEGAMAN6_FXX`.
 
-##### The `netplay-compatibility` field
+##### The `netplay_compatibility` field
 
-A string which, if other patches also have set to the same value, allows netplay between them: e.g. all patches with a `netplay-compatibility` of `bn6` may netplay with each other.
+A string which, if other patches also have set to the same value, allows netplay between them: e.g. all patches with a `netplay_compatibility` of `bn6` may netplay with each other.
 
 ### Your patch file
 
