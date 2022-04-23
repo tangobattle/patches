@@ -6,7 +6,6 @@ authors = [
 source = "https://github.com/luckytyphlosion/bn6-all-stars"
 license = "MIT"
 for_rom = "MEGAMAN6_GXX"
-netplay_compatibility = "bn6-allstars"
 
 [versions.'1.0.0']
-netplay_compatibility = "bn6-allstars"
+netplay_compatibility = "bn6allstars"
