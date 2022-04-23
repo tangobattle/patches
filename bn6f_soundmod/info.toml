@@ -5,4 +5,4 @@ source = "https://github.com/idealexe/EXE6_Tools"
 for_rom = "MEGAMAN6_FXX"
 
 [versions.'0.0.0']
-netplay_compatibility = "bn6-allstars"
+netplay_compatibility = "bn6"
