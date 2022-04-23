@@ -4,5 +4,5 @@ authors = ["idealexe <omega_8810@yahoo.co.jp>"]
 source = "https://github.com/idealexe/EXE6_Tools"
 for_rom = "ROCKEXE6_GXX"
 
-[[versions.'0.0.0']]
+[versions.'0.0.0']
 netplay_compatibility = "exe6"

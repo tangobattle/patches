@@ -46,7 +46,7 @@ Tango interprets the version as follows:
 
 -   A **patch version change (x.y.Z)** assumes the changes will not impact save state loading at all, including VRAM. Tango will **prefer** playing replays created on older patch versions with newer patch versions.
 
-Version sections are of the format `[[versions.'x.y.z']]` (note the single quotes!).
+Version sections are of the format `[versions.'x.y.z']` (note the single quotes!).
 
 ##### The `netplay_compatibility` field
 
