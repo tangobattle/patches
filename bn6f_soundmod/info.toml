@@ -3,4 +3,6 @@ title = "SoundMod (BN6 Falzar)"
 authors = ["idealexe <omega_8810@yahoo.co.jp>"]
 source = "https://github.com/idealexe/EXE6_Tools"
 for_rom = "MEGAMAN6_FXX"
-netplay_compatibility = "bn6"
+
+[[versions.'0.0.0']]
+netplay_compatibility = "bn6-allstars"
