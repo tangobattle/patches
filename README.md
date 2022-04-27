@@ -4,7 +4,7 @@ This is the repository from which Tango is able to load patches from.
 
 ## Submitting a patch
 
-Each patch is placed in its own directory in this repository, with a uniquely identifying name for it. A patch must contain a valid `info.toml` file, as well as versioned patch files (`.bps` or `.ips`).
+Each patch is placed in its own directory in this repository, with a uniquely identifying name for it. A patch must contain a valid `info.toml` file, as well as versioned patch files (`.bps` only).
 
 ### `info.toml`
 
