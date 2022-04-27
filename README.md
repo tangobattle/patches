@@ -32,7 +32,7 @@ The license for the patch as an [SPDX license identifier](https://spdx.dev/licen
 
 ##### The `for_rom` field
 
-The ROM that this patch applies to. Tango matches patches based on the ROM title, which usually looks something like `MEGAMAN6_FXX`.
+The ROM that this patch applies to. Tango matches patches based on the ROM title, which usually looks something like `MEGAMAN6_FXXBR6E` (this is the ROM title AND the ROM ID).
 
 #### The `[versions]` section
 
