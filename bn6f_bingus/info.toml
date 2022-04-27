@@ -1,0 +1,11 @@
+[patch]
+title = "BingusBN6 (BN6 Falzar)"
+authors = [
+    "ssbmars <46971717+ssbmars@users.noreply.github.com>",
+]
+source = "https://github.com/ssbmars/BBN6"
+license = "MIT"
+for_rom = "MEGAMAN6_FXXBR6E"
+
+[versions.'0.0.1']
+netplay_compatibility = "bingusbn6"
