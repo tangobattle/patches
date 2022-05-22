@@ -1,5 +1,5 @@
 [patch]
-title = "BingusBN6 (BN6 Gregar)"
+title = "BingusBN6"
 authors = [
     "ssbmars <46971717+ssbmars@users.noreply.github.com>",
 ]
@@ -8,4 +8,6 @@ license = "MIT"
 for_rom = "MEGAMAN6_GXXBR5E"
 
 [versions.'0.0.1']
+netplay_compatibility = "bingusbn6"
+[versions.'1.0.0']
 netplay_compatibility = "bingusbn6"
