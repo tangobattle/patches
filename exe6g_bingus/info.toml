@@ -1,5 +1,5 @@
 [patch]
-title = "BingusEXE6"
+title = "BingusEXE6 G"
 authors = [
     "ssbmars <46971717+ssbmars@users.noreply.github.com>",
 ]
@@ -7,7 +7,5 @@ source = "https://github.com/ssbmars/BBN6"
 license = "MIT"
 for_rom = "ROCKEXE6_GXXBR5J"
 
-[versions.'0.0.1']
-netplay_compatibility = "bingusexe6"
 [versions.'1.0.0']
-netplay_compatibility = "bingusexe6"
+netplay_compatibility = "bingusexe6v1"
