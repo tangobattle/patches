@@ -1,0 +1,7 @@
+[patch]
+title = "ROCK_EXE4_BM_SoundMod_VirusBoss_Mixx"
+authors = ["オレ{Ore} <oreo7863@gmail.com>"]
+for_rom = "ROCK_EXE4_BMB4BJ"
+
+[versions.'0.0.0']
+netplay_compatibility = "exe4"
