@@ -1,0 +1,8 @@
+[patch]
+title = "ROCK_EXE4_BM_SoundMod_VirusBoss_Mixx"
+authors = ["オレ{Ore} <352415346@qq.com>"]
+source = "https://github.com/luckytyphlosion/bn6-40-chips"
+for_rom = "ROCK_EXE4_BMB4BJ"
+
+[versions.'0.0.0']
+netplay_compatibility = "exe4"
