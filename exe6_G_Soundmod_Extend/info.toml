@@ -1,0 +1,7 @@
+[patch]
+title = "ウイルス、ボス戦ランダム再生mod(EXE6 グレイガ)"
+authors = ["オレ{Ore} <oreo7863@gmail.com>"]
+for_rom = "ROCKEXE6_GXXBR5J"
+
+[versions.'0.0.0']
+netplay_compatibility = "exe6"
