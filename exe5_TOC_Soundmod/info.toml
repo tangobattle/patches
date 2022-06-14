@@ -1,0 +1,7 @@
+[patch]
+title = "ROCKEXE5_TOC_SoundMod_VirusBoss_Mixx"
+authors = ["オレ{Ore} <oreo7863@gmail.com>"]
+for_rom = "ROCKEXE5_TOCBRKJ"
+
+[versions.'0.0.0']
+netplay_compatibility = "exe5"
