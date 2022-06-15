@@ -1,0 +1,11 @@
+[patch]
+title = "All-Stars"
+authors = [
+    "luckytyphlosion <10688458+luckytyphlosion@users.noreply.github.com>",
+    "Prof. 9 <prof9@outlook.com>",
+]
+source = "https://github.com/luckytyphlosion/bn6-all-stars"
+license = "MIT"
+
+[versions.'1.0.0']
+netplay_compatibility = "bn6allstars"

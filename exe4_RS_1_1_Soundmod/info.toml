@@ -1,7 +1,0 @@
-[patch]
-title = "ROCK_EXE4_RS_1_1_SoundMod_VirusBoss_Mixx"
-authors = ["オレ{Ore} <oreo7863@gmail.com>"]
-for_rom = "ROCK_EXE4_RSB4WJ"
-
-[versions.'0.0.0']
-netplay_compatibility = "exe4"

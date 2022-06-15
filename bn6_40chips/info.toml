@@ -1,0 +1,10 @@
+[patch]
+title = "40 Chip Folders"
+authors = [
+    "luckytyphlosion <10688458+luckytyphlosion@users.noreply.github.com>",
+]
+source = "https://github.com/luckytyphlosion/bn6-40-chips"
+license = "MIT"
+
+[versions.'1.1.0']
+netplay_compatibility = "bn640chips"
