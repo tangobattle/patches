@@ -52,8 +52,8 @@ Version sections are of the format `[versions.'x.y.z']` (note the single quotes!
 
 A string which, if other patches also have set to the same value, allows netplay between them: e.g. all patches with a `netplay_compatibility` of `bn6` may netplay with each other.
 
-### Your patch file
+### Your patch directory
 
-You must place your patch in your directory versioned with [Semantic Versioning](https://semver.org/), prefixed with `v`. For example, if you are releasing version 1.0.1 of your patch, you must label the file as `v1.0.1.bps`
+You must place your patch in your directory versioned with [Semantic Versioning](https://semver.org/), prefixed with `v`. For example, if you are releasing version 1.0.1 of your patch, you must label the directory as `v1.0.1`. Within the directory, you must place patches for each ROM you support. For instance, if you intend to support Mega Man Battle Network 6: Cybeast Falzar, you must name the patch `MEGAMAN6_FXXBR6E_00.bps`: `MEGAMAN6_FXXBR6E` is the game ID and `00` is the revision (this is usually `00`).
 
 **Once a patch version is submitted, you may not delete it unless it contains sensitive information.** This is such to ensure replays on older versions may always be played.
