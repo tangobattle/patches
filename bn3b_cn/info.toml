@@ -1,6 +1,8 @@
 [patch]
 title = "洛克人EXE3 黑版BLX 中文化"
 authors = ["NW洛克人爱好者&flyeyes汉化组 <593002516@qq.com>"]
+source = "TBD"
+for_rom = "MEGA_EXE3_BLA3XE"
 
 [versions.'1.3.0']
 netplay_compatibility = "bn3"

@@ -1,0 +1,8 @@
+[patch]
+title = "洛克人EXE6 电脑兽麒麟 中文化（EXE6 グレイガ）"
+authors = ["洛克人EXE6 爱好者汉化组 <352415346@qq.com>"]
+source = "https://www.rockmanlab.com/forum.php?mod=viewthread&tid=43465"
+for_rom = "ROCKEXE6_GXXBR5J"
+
+[versions.'1.0.0']
+netplay_compatibility = "exe6"

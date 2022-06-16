@@ -1,0 +1,8 @@
+[patch]
+title = "SoundMod (BN6 Gregar)"
+authors = ["idealexe <omega_8810@yahoo.co.jp>"]
+source = "https://github.com/idealexe/EXE6_Tools"
+for_rom = "MEGAMAN6_GXXBR5E"
+
+[versions.'0.0.0']
+netplay_compatibility = "bn6"

@@ -2,6 +2,7 @@
 title = "BBBN3 Español"
 authors = ["ssbmars <46971717+ssbmars@users.noreply.github.com>"]
 source = "https://github.com/ssbmars/BBN3"
+for_rom = "MEGA_EXE3_BLA3XE"
 
 [versions.'0.0.2']
 netplay_compatibility = "bbn3_0"
