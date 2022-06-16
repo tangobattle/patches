@@ -3,5 +3,5 @@ title = "シリーズ音源&曲追加"
 authors = ["idealexe <omega_8810@yahoo.co.jp>"]
 source = "https://github.com/idealexe/EXE6_Tools"
 
-[versions.'0.0.0']
+[versions.'1.0.0']
 netplay_compatibility = "exe6"
