@@ -1,0 +1,7 @@
+[patch]
+title = "ロックマンエグゼ4.5 v1.1 リアルゲームプレイ"
+authors = ["The Rockman EXE Zone", "Greiga Master <griegamaster@gmail.com>"]
+source = "https://forums.therockmanexezone.com/rockman-exe-4-5-real-battle-network-gameplay-patch-t5461.html"
+
+[versions.'0.6.0']
+netplay_compatibility = "bn45realgameplay"

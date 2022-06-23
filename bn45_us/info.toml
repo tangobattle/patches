@@ -1,0 +1,8 @@
+[patch]
+title = "Mega Man Battle Network 4.5: Real Operation (US)"
+authors = ["The Rockman EXE Zone"]
+license = "BSD-3-Clause"
+source = "https://www.therockmanexezone.com/general/2019/10/26/mega-man-battle-network-4-5-real-operation-english-translation/"
+
+[versions.'1.1.0']
+netplay_compatibility = "bn45"
