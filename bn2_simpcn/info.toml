@@ -1,0 +1,7 @@
+[patch]
+title = "洛克人EXE2 简体中文化"
+authors = ["Unknown"]
+
+[versions.'1.0.0']
+netplay_compatibility = "bn2"
+
