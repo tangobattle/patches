@@ -1,0 +1,6 @@
+[patch]
+title = "Mea Man Battle Network 2"
+authors = ["Prof. 9 <prof9@outlook.com>"]
+
+[versions.'1.0.0']
+netplay_compatibility = "bn2"
