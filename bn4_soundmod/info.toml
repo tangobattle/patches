@@ -1,0 +1,6 @@
+[patch]
+title = "SoundMod_VirusBoss_Mixx"
+authors = ["オレ{Ore} <oreo7863@gmail.com>"]
+
+[versions.'0.0.0']
+netplay_compatibility = "bn4"
