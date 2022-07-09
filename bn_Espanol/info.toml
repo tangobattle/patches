@@ -1,0 +1,8 @@
+[patch]
+title = "BN Español"
+authors = ["MNTWFL TRANSLATIONS"]
+source = "https://www.facebook.com/Megaman.Exe.FanClub"
+
+[versions.'1.7.0']
+netplay_compatibility = "bn1"
+
