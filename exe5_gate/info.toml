@@ -1,0 +1,7 @@
+[patch]
+title = "EXE5 ゲート"
+authors = ["bigfarts <bigfarts@punymail.com>"]
+license = "WTFPL"
+
+[versions.'1.0.0']
+netplay_compatibility = "exe5gate"
