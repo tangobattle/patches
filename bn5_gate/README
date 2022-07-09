@@ -2,6 +2,14 @@ This patches out the preventing of the menu opening when using another Navi and 
 
 Offsets of interest:
 
+MEGAMAN5_TC_BRKE_00:
+
 0x0000549a -> c0 46         # Allows menu to open
 0x0013fb0a -> c0 46 c0 46   # Removes Navi reset
 0x00135a1e -> c0 46 c0 46   # Removes Navi reset
+
+MEGAMAN5_TP_BRBE_00:
+
+0x0000549a -> c0 46         # Allows menu to open
+0x0013fa22 -> c0 46 c0 46   # Removes Navi reset
+0x08135936 -> c0 46 c0 46   # Removes Navi reset

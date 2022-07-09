@@ -1,7 +1,0 @@
-This patches out the preventing of the menu opening when using another Navi and removes all Navi resets.
-
-Offsets of interest:
-
-0x0000549a -> c0 46         # Allows menu to open
-0x0013fb0a -> c0 46 c0 46   # Removes Navi reset
-0x00135a1e -> c0 46 c0 46   # Removes Navi reset
