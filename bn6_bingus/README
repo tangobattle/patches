@@ -1,0 +1,7 @@
+The Bingus Patch for Battle Network 6 fixes glitches that negatively affect pvp, as well as niche imbalances caused by chips that behave differently depending on whether they were used by the Host or Client. This patch aims to improve the competitive integrity of pvp in the rollback era. Modifications are minimal and only target longstanding issues. All changes are vetted and approved by the community. 
+
+Fixed a bug in which every hitbox that collides with a target on the same frame is made to completely overwrite the decross flag, which causes only the last hitbox that's processed on a frame to decide whether a player gets decrossed.
+
+When Windrack is used point-blank against someone who is protected by a barrier, the gusts from the windrack will always have a chance to move the player. This is accomplished by having the wind gust linger at its original position for 2 frames when it's first spawned.
+
+When Thunder or BugDeathThunder is on the same panel as the character that it's targeting, it will no longer move in a hardcoded direction irrespective of which side spawned it. Instead it will now move in the direction regarded as "forward" by the player who spawned the thunder.
