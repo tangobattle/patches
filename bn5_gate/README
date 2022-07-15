@@ -1,0 +1,13 @@
+This patch allows navis other than MegaMan to be used in link play. Note that you must use a save that already has a different navi set.
+
+Offsets of interest:
+
+MEGAMAN5_TP_BRBE_00:
+
+0x0800549a -> c0 46         # Allows START menu to open
+0x08135936 -> c0 46 c0 46   # Removes Navi reset
+
+MEGAMAN5_TC_BRKE_00:
+
+0x0800549a -> c0 46         # Allows START menu to open
+0x08135a1e -> c0 46 c0 46   # Removes Navi reset

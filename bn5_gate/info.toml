@@ -1,0 +1,7 @@
+[patch]
+title = "BN5 Gate"
+authors = ["bigfarts <bigfarts@punymail.com>"]
+license = "WTFPL"
+
+[versions.'1.0.0']
+netplay_compatibility = "bn5gate"
