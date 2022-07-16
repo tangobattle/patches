@@ -6,3 +6,5 @@ license = "MIT"
 
 [versions.'1.0.0']
 netplay_compatibility = "bingusexe6v1"
+[versions.'1.0.1']
+netplay_compatibility = "bingusexe6v1"
