@@ -1,0 +1,7 @@
+[patch]
+title = "BN3 Español"
+authors = ["MNTWFL TRANSLATIONS"]
+source = "https://www.facebook.com/Megaman.Exe.FanClub"
+
+[versions.'1.3.0']
+netplay_compatibility = "bn3"
