@@ -1,0 +1,6 @@
+[patch]
+title = "BN3 White Re--mod"
+authors = ["ryukusu"]
+
+[versions.'1.0.0']
+netplay_compatibility = "bn3whiteremod1"
