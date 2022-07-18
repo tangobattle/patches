@@ -1,0 +1,7 @@
+[patch]
+title = "BN3 White Re--mod"
+authors = ["ryukusu"]
+source = "https://forums.therockmanexezone.com/megaman-battle-network-3-white-u-re-mod-patch-t16479.html"
+
+[versions.'1.0.0']
+netplay_compatibility = "bn3whiteremod1"
