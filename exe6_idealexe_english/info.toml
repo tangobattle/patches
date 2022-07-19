@@ -5,6 +5,7 @@ authors = [
     "exeguy11",
     "ssbmars <46971717+ssbmars@users.noreply.github.com>",
 ]
+lang = "en"
 source = "https://github.com/ssbmars/ideal_EXE6_patch"
 
 [versions.'1.0.0']
