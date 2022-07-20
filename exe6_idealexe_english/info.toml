@@ -5,8 +5,8 @@ authors = [
     "exeguy11",
     "ssbmars <46971717+ssbmars@users.noreply.github.com>",
 ]
-lang = "en"
 source = "https://github.com/ssbmars/ideal_EXE6_patch"
 
 [versions.'1.0.0']
+saveedit_overrides = { charset = " 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ*abcdefghijklmnopqrstuvwxyz���ウアイオエケコカクキセサソシステトツタチネノヌナニヒヘホハフミマメムモヤヨユロルリレラン熱斗ワヲギガゲゴグゾジゼズザデドヅダヂベビボバブピパペプポゥァィォェュヴッョャ-×=:%?+█�ー!&,゜.・;'\"~/()「」�_�����あいけくきこかせそすさしつとてたちねのなぬにへふほはひめむみもまゆよやるらりろれ�んをわ" }
 netplay_compatibility = "exe6"
