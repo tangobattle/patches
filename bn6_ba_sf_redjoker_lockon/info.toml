@@ -1,0 +1,9 @@
+[patch]
+title = "BA Star Force Red Joker Lock On"
+authors = [
+    "brianuuu <38166666+brianuuu@users.noreply.github.com>",
+    "ahackerjack",
+]
+
+[versions.'10.0.0']
+netplay_compatibility = "bn6_ba_lockon"
