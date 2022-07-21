@@ -1,0 +1,7 @@
+[patch]
+title = "BN5 Team Dark ProtoMan"
+authors = ["Vhack"]
+source = "https://forums.therockmanexezone.com/megaman-exe-5-team-dark-protoman-patch-v-1-t16672.html?"
+
+[versions.'1.0.0']
+netplay_compatibility = "bn5_darkproto"
