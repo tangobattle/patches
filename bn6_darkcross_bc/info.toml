@@ -1,0 +1,6 @@
+[patch]
+title = "DarkCross BassCross"
+authors = ["darkcrosz"]
+
+[versions.'1.0.0']
+netplay_compatibility = "bn6_darkcross_bc"

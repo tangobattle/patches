@@ -1,0 +1,6 @@
+[patch]
+title = "DarkCross Star Force"
+authors = ["darkcrosz"]
+
+[versions.'1.0.0']
+netplay_compatibility = "bn6_darkcross_sf"
