@@ -1,0 +1,8 @@
+[patch]
+title = "Timaeus Patch (BN6 Falzar)"
+authors = ["timaeus222 <timaeus222@yahoo.com>"]
+source = "https://forums.therockmanexezone.com/megaman-exe-6-timaeus-patch-v22-1-t5501.html"
+for_rom = "MEGAMAN6_FXXBR6E"
+
+[versions.'21.2.0']
+netplay_compatibility = "bn6f_timaeus"
