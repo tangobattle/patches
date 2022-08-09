@@ -3,4 +3,4 @@ title = "シリーズウイルス、ボス戦ランダム再生mod"
 authors = ["オレ{Ore} <oreo7863@gmail.com>"]
 
 [versions.'0.0.0']
-netplay_compatibility = "exe"
+netplay_compatibility = "exe1"
