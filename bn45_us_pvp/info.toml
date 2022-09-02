@@ -4,7 +4,7 @@ authors = ["The Rockman EXE Zone", "Greiga Master <griegamaster@gmail.com>"]
 source = "https://therockmanexezone.com/pages/exe45-pvp-patch"
 
 [versions.'0.0.1']
-saveedit_overrides = { charset = [
+saveedit_overrides = { language = "en-US", charset = [
     " ",
     "0",
     "1",
