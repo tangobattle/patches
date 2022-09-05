@@ -1,0 +1,9 @@
+[patch]
+title = "EXE4.5 PvPパッチ"
+authors = ["Greiga Master <griegamaster@gmail.com>"]
+source = "https://therockmanexezone.com/pages/exe45-pvp-patch"
+
+[versions.'0.0.1']
+netplay_compatibility = "exe45_pvp"
+[versions.'0.1.0']
+netplay_compatibility = "exe45_pvp_bf1"

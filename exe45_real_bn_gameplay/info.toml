@@ -4,4 +4,6 @@ authors = ["Greiga Master <griegamaster@gmail.com>"]
 source = "https://forums.therockmanexezone.com/rockman-exe-4-5-real-battle-network-gameplay-patch-t5461.html"
 
 [versions.'0.6.0']
-netplay_compatibility = "exe45realbngameplay"
+netplay_compatibility = "bn45realgameplay"
+[versions.'0.7.0']
+netplay_compatibility = "bn45realgameplay_v7"
