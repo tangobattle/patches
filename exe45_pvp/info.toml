@@ -7,3 +7,5 @@ source = "https://therockmanexezone.com/pages/exe45-pvp-patch"
 netplay_compatibility = "exe45_pvp"
 [versions.'0.1.0']
 netplay_compatibility = "exe45_pvp_bf1"
+[versions.'0.2.0']
+netplay_compatibility = "exe45_pvp_bf2"
