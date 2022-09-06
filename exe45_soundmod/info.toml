@@ -1,0 +1,7 @@
+[patch]
+title = "シリーズウイルス、ボス戦ランダム再生mod"
+authors = ["オレ{Ore} <oreo7863@gmail.com>"]
+
+
+[versions.'0.0.0']
+netplay_compatibility = "bn45"
