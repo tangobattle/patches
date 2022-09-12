@@ -1,4 +1,4 @@
-# tango patch repository
+# Tango patch repository
 
 This is the repository from which Tango is able to load patches from.
 
@@ -30,21 +30,9 @@ The URL to the source of the patch.
 
 The license for the patch as an [SPDX license identifier](https://spdx.dev/licenses/). If this is not present, the license is assumed to be `UNLICENSED`.
 
-##### The `for_rom` field
-
-The ROM that this patch applies to. Tango matches patches based on the ROM title, which usually looks something like `MEGAMAN6_FXXBR6E` (this is the ROM title AND the ROM ID).
-
 #### The `[versions]` section
 
 The versions section contains metadata for each version of your patch. The versions must follow [Semantic Versioning](https://semver.org/).
-
-Tango interprets the version as follows:
-
--   A **major version change (X.y.z)** assumes everything has changed significantly. If a replay was created on an older major version of the patch, Tango will **refuse** playing it with the newer version.
-
--   A **minor version change (x.Y.z)** assumes the changes will not adversely impact save state loading: there may be transient issues with e.g. VRAM but they are cosmetic only. Tango will **avoid** playing replays created on older minor versions with newer minor versions, but this is not a hard requirement if Tango cannot find an exactly matching patch.
-
--   A **patch version change (x.y.Z)** assumes the changes will not impact save state loading at all, including VRAM. Tango will **prefer** playing replays created on older patch versions with newer patch versions.
 
 Version sections are of the format `[versions.'x.y.z']` (note the single quotes!).
 
@@ -54,7 +42,7 @@ A string which, if other patches also have set to the same value, allows netplay
 
 ### Your patch directory
 
-You must place your patch in your directory versioned with [Semantic Versioning](https://semver.org/), prefixed with `v`. For example, if you are releasing version 1.0.1 of your patch, you must label the directory as `v1.0.1`. Within the directory, you must place patches for each ROM you support. For instance, if you intend to support Mega Man Battle Network 6: Cybeast Falzar, you must name the patch `MEGAMAN6_FXXBR6E_00.bps`: `MEGAMAN6_FXXBR6E` is the game ID and `00` is the revision (this is usually `00`).
+You must place your patch in your directory versioned with [Semantic Versioning](https://semver.org/), prefixed with `v`. For example, if you are releasing version 1.0.1 of your patch, you must label the directory as `v1.0.1`. Within the directory, you must place patches for each ROM you support. For instance, if you intend to support Mega Man Battle Network 6: Cybeast Falzar, you must name the patch `BR6E_00.bps`: `BR6E` is the game ID and `00` is the revision (this is usually `00`).
 
 You may also include a plaintext file named README that will be displayed in the patch information in the Tango launcher.
 
