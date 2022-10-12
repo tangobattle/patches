@@ -13,3 +13,6 @@ netplay_compatibility = "exe45_pvp_bf2"
 netplay_compatibility = "exe45_pvp_preview2"
 [versions.'0.4.0']
 netplay_compatibility = "exe45_pvp_preview2_bf1"
+[versions.'0.5.0']
+netplay_compatibility = "exe45_pvp_preview2_bf2"
+
