@@ -1,0 +1,7 @@
+[patch]
+title = "BN1 no flashing"
+authors = ["bigfarts <bigfarts@punymail.com>"]
+license = "BE-GAY-DO-CRIME"
+
+[versions.'0.0.1']
+netplay_compatibility = "bn1_noflash"
