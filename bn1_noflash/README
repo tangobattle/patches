@@ -1,0 +1,38 @@
+this is just BN1 but attacks under 100 don't flash and attacks under 10 don't flinch
+
+.gba
+.open "bn1.gba", 0x08000000
+
+.org 0x080566e8
+    bl conditional_flashing
+
+.org 0x080566ec
+    bl conditional_flinching
+
+.macro HDMG,dest
+    ldr     dest, [r5, 0x74]
+    ldrh    dest, [dest, 0x2a]
+.endmacro
+
+.org 0x08160ac4
+conditional_flashing:
+    mov     r0, 0
+    HDMG    r1
+    cmp     r1, 100
+    blt     no_flashing
+    mov     r0, 0x4e
+no_flashing:
+    strb    r0, [r7, 0x0]
+    mov     pc, lr
+
+conditional_flinching:
+    mov     r0, 5
+    HDMG    r1
+    cmp     r1, 10
+    blt     no_flinching
+    ldrb    r0, [r7, 0xb]
+no_flinching:
+    cmp     r0, 5
+    mov     pc, lr
+
+.close
