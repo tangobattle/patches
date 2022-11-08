@@ -5,3 +5,5 @@ license = "BE-GAY-DO-CRIME"
 
 [versions.'0.0.1']
 netplay_compatibility = "bn1_noflash"
+[versions.'0.0.2']
+netplay_compatibility = "bn1_noflash2"
