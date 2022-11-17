@@ -1,11 +1,12 @@
 [patch]
-title = "EXE6 Youngsters (EXE6 with BN6 Bugfixes + Mechanics) + BBN6"
+title = "EXE6 Unseniors Translated (EXE6 with BN6 Bugfixes + Mechanics) + BBN6"
 authors = [
     "luckytyphlosion <10688458+luckytyphlosion@users.noreply.github.com>",
-    "ssbmars <46971717+ssbmars@users.noreply.github.com>"
+    "ssbmars <46971717+ssbmars@users.noreply.github.com>",
+    "exeguy11"
 ]
 source = "https://github.com/luckytyphlosion/exe6-unseniors"
-license = "MIT"
+license = "MIT (Unseniors + BBN6), UNLICENSED (Translation)"
 
 [versions.'1.0.0']
 netplay_compatibility = "exe6unseniors"
