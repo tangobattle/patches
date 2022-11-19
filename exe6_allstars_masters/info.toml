@@ -1,0 +1,13 @@
+[patch]
+title = "EXE6 All-Stars + BBN6 + KaizouLoader (TRANSLATION NEEDED)"
+authors = [
+    "luckytyphlosion <10688458+luckytyphlosion@users.noreply.github.com>",
+    "Prof. 9 <prof9@outlook.com>",
+    "ssbmars <46971717+ssbmars@users.noreply.github.com>",
+    "idealexe <omega_8810@yahoo.co.jp>"
+]
+source = "https://github.com/luckytyphlosion/bn6-all-stars"
+license = "MIT (All-Stars + BBN6), UNLICENSED (KaizouLoader)"
+
+[versions.'1.1.0']
+netplay_compatibility = "exe6allstars_masters_v1.1.0"
