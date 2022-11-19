@@ -1,0 +1,13 @@
+This patch fixes glitches and mechanics that were fixed/changed in BN6 US.
+
+Full list of bugfixes/mechanic changes:
+- AirSpin's HP has been changed from 300 to 400
+- In JP, the hive of RiskyHoney will not send extra bees when blocked with AntiDmg or AntiSwrd set up. In US, the hive will take priority over traps when attacked.
+- In JP, the AntiDmg NCP will not block a 0 damage attack, causing flashing/flinching. In US, Anti Magic will block a 0 damage attack, preventing the user from flashing/flinching, but a shuriken will not fire.
+- Fixed a bug where the charge shots of SpoutCross and SlashCross could be boosted by using a chip with a Plus boost directly before using the charge shots.
+- Fixed bugs relating to using Tornado + WhiCapsl (does 2x damage instead of paralyze) and Tornado + Uninstll (paralyzes instead of uninstalling) on an elemental panel.
+- Fixed a bug where the Charge Shot from Buster Bug would deal its full damage when MegaMan is in Very Tired state (after Beast Over)
+- ElementMan now chooses its element randomly if not selected. In JP, it would time out and no element would be chosen.
+- JP-exclusive chips such as DblBeast and Gregar will now fizzle.
+
+Also includes Bingus Patch (BBN6) by ssbmars, which fixes glitches that negatively impact pvp and host-client differences.
