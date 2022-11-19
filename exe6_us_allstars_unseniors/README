@@ -1,0 +1,19 @@
+Adds the ability to choose any 5 crosses from both versions to bring into battle.
+Press L in the overworld to select your five crosses.
+
+Version (Gregar or Falzar) determines choice of gigas and NullBeast and Beast Over form.
+The beast form is determined by the cross version if MegaMan is in a cross.
+If MegaMan is decrossed while in a beast form, he reverts to the beast form of the cross version.
+
+Also fixes the biased shuffling algorithm that vanilla BN6 uses, where chips are more likely to appear in the respective folder slots.
+
+Known bugs:
+- The beast button, chip image, and SFX stays constant regardless of the current form. This may be fixed in a later version.
+- The emotion window mugshot shows the Beast Over graphic of the current cross even though the Beast Over form is fixed to the version.
+- If MegaMan is in a beast out form exclusive to the other version, then MegaMan's emotion will briefly flicker to the base version equivalent form upon opening the custom screen on the final turn of Beast Out. For example, if the version chosen is Gregar, and MegaMan is in SpoutBeast, then MegaMan's emotion will briefly flicker to HeatBeast when Beast Out wears off.
+
+This patch is intended to be used for battles without ModCards.
+
+Also includes the following patches:
+- Bingus Patch (BBN6) by ssbmars, which fixes glitches that negatively impact pvp and host-client differences.
+- Unseniors by luckytyphlosion, which fixes glitches and mechanics that were fixed/changed in BN6 US, and also removes JP-exclusive chips such as DblBeast and Gregar.

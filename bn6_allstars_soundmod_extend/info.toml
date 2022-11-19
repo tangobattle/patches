@@ -1,15 +1,13 @@
 [patch]
-title = "BN6 All-Stars + BBN6"
+title = "BN6 All-Stars + BBN6 + ORE SoundMod"
 authors = [
     "luckytyphlosion <10688458+luckytyphlosion@users.noreply.github.com>",
     "Prof. 9 <prof9@outlook.com>",
-    "ssbmars <46971717+ssbmars@users.noreply.github.com>"
+    "ssbmars <46971717+ssbmars@users.noreply.github.com>",
+    "オレ{Ore} <oreo7863@gmail.com>"
 ]
 source = "https://github.com/luckytyphlosion/bn6-all-stars"
-license = "MIT"
-
-[versions.'1.0.0']
-netplay_compatibility = "bn6allstars"
+license = "MIT (All-Stars + BBN6), UNLICENSED (ORE SoundMod)"
 
 [versions.'1.1.0']
 netplay_compatibility = "bn6allstars_v1.1.0"
