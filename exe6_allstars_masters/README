@@ -1,20 +1,19 @@
-(NEEDS TRANSLATION)
-Adds the ability to choose any 5 crosses from both versions to bring into battle.
-Press L in the overworld to select your five crosses.
+両方のバージョンのクロスを自由に選択して、バトルで使う機能が追加されます。
+Lボタンで話しかけるとバトルで使用するクロスを選択できます。
 
-Version (Gregar or Falzar) determines choice of gigas and NullBeast and Beast Over form.
-The beast form is determined by the cross version if MegaMan is in a cross.
-If MegaMan is decrossed while in a beast form, he reverts to the beast form of the cross version.
+ギガチップ、クロスなしの獣化、超獣化はバージョンによって変わります。
+クロスビーストになる時は、クロスの元々に存在するバージョンに変わります。
+クロスビースト状態でクロスが解除されると、クロスが解除されますが、別バージョンの獣化には変わりません。（例：グレイガ版でアクアビーストの時、クロスが解除されるとクロスのないファルザービーストになります。）
 
-Also fixes the biased shuffling algorithm that vanilla BN6 uses, where chips are more likely to appear in the respective folder slots.
+チップフォルダのシャッフルされるアルゴリズムが修正されました。（チップフォルダの順番に関係なくカスタムに来るようなります。）
 
-Known bugs:
-- The beast button, chip image, and SFX stays constant regardless of the current form. This may be fixed in a later version.
-- The emotion window mugshot shows the Beast Over graphic of the current cross even though the Beast Over form is fixed to the version.
-- If MegaMan is in a beast out form exclusive to the other version, then MegaMan's emotion will briefly flicker to the base version equivalent form upon opening the custom screen on the final turn of Beast Out. For example, if the version chosen is Gregar, and MegaMan is in SpoutBeast, then MegaMan's emotion will briefly flicker to HeatBeast when Beast Out wears off.
+現在のバグ
+- 獣化ボタン、チップのイメージ、選択された時のSFXがまだ変わっていません。アップデートで修正するかどうかはまだ分かりません。
+- 別バージョンのクロスを使用している時に超獣化を使うと、カスタ厶画面のココロウィンドウが別バージョンの超獣化になりますが、カスタムを終えるとバージョン通りの超獣化になります。（例：ファルザー版でヒートクロスの状態で超獣化をしたら、カスタム画面のココロウィンドウが超獣化のグレイガになりますが、カスタムを終えると、ファルザーの超獣化になり、ココロウィンドウもファルザーの超獣化になります。
+- 別バージョンのクロスビースト状態でココロカウントが終わり、獣化が解除されると一瞬だけ正しいバージョンではないクロスビーストのココロウィンドウが表示されます。（例：ファルザー版でヒートビーストの状態で獣化が解除されると、一瞬だけアクアビーストココロウィンドウが表示されます。）
 
-This patch is intended to be used for battles with ModCards enabled.
+このパッチは改造カードありの対戦向けです。
 
-Also includes the following patches:
-- Bingus Patch (BBN6) by ssbmars, which fixes glitches that negatively impact pvp and host-client differences.
-- KaizouLoader by idealexe, talk to Lan's PC to add in ModCards.
+以下のパッチも含まれています:
+- ssbmarsの「Bingusパッチ(BBN6)」1Pと2Pの違いが修正されます。
+- idealexeの「KaizouLoaderパッチ」で熱斗くんのPCで改造カードを追加できます。
