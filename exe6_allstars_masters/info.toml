@@ -11,3 +11,6 @@ license = "MIT (All-Stars + BBN6), UNLICENSED (KaizouLoader)"
 
 [versions.'1.1.0']
 netplay_compatibility = "exe6allstars_masters_v1.1.0"
+
+[versions.'1.1.1']
+netplay_compatibility = "exe6allstars_masters_v1.1.1"
