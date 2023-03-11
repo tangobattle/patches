@@ -470,7 +470,7 @@ navicust_parts = [
     { name = "HP+400" },
     { name = "HP+500" },
 ]
-patchcard56s = [
+patch_card56s = [
     { name = "" },
     { name = "加农炮塔" },
     { name = "泡泡蟹" },
@@ -590,7 +590,7 @@ patchcard56s = [
     { name = "电脑兽凤凰" },
     { name = "佛鲁迪共鸣洛克人" },
 ]
-patchcard56_effects = [
+patch_card56_effects = [
     { name_template = [ { t = "HP+" }, { p = 1 } ] },
     { name_template = [ { t = "HP+" }, { p = 1 }, { t = "%" } ] },
     { name_template = [ { t = "HP-" }, { p = 1 } ] },
