@@ -1,0 +1,11 @@
+[patch]
+title = "BN5 Link Navis Redux"
+authors = [
+    "bigfarts <bigfarts@punymail.com>",
+    "luckytyphlosion <10688458+luckytyphlosion@users.noreply.github.com>"
+]
+source = "https://github.com/luckytyphlosion/bn5-link-navis-redux"
+license = "MIT"
+
+[versions.'1.0.0']
+netplay_compatibility = "bn5gateredux"
