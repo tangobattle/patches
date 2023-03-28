@@ -9,3 +9,6 @@ license = "MIT"
 
 [versions.'1.0.0']
 netplay_compatibility = "bn5gateredux"
+
+[versions.'1.1.0']
+netplay_compatibility = "bn5gateredux_v1.1.0"
