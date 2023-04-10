@@ -1,5 +1,6 @@
 [patch]
 title = "BBN5"
+authors = []
 
 [versions.'1.0.0']
 netplay_compatibility = "bbn5_0"
