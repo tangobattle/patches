@@ -1,6 +1,12 @@
 [patch]
 title = "BBN5"
-authors = []
+authors = [
+    "GhostlyMire",
+    "GreigaMaster"
+]
 
 [versions.'1.0.0']
 netplay_compatibility = "bbn5_0"
+
+[versions.'1.1.0']
+netplay_compatibility = "bbn5_1"
