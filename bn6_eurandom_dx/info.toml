@@ -1,0 +1,16 @@
+[patch]
+title = "BN6 Random Battle"
+authors = [
+    "luckytyphlosion <10688458+luckytyphlosion@users.noreply.github.com>"
+]
+source = "https://github.com/luckytyphlosion/bn6-random-battle"
+license = "MIT"
+
+[versions.'0.0.1']
+netplay_compatibility = "bn6random"
+
+[versions.'0.0.2']
+netplay_compatibility = "bn6random_v0.0.2"
+
+[versions.'0.0.3']
+netplay_compatibility = "bn6random_v0.0.3"
