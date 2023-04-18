@@ -1,0 +1,10 @@
+[patch]
+title = "BN6 Reverse Weaknesses"
+authors = [
+    "luckytyphlosion <10688458+luckytyphlosion@users.noreply.github.com>"
+]
+source = "https://github.com/luckytyphlosion/bn6-reverse-weaknesses"
+license = "MIT"
+
+[versions.'1.2.0']
+netplay_compatibility = "bn6reverseweaknesses"
