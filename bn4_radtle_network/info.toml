@@ -1,0 +1,11 @@
+[patch]
+title = "RADtle_network"
+authors = ["Flop Tart"]
+source = "https://docs.google.com/spreadsheets/d/1Za5FLqxZOAQ_wHGgfXOreev2_TN1wU2bxStPFDLAIW4/edit?usp=sharing"
+
+[versions.'0.0.0']
+netplay_compatibility = "bn4rad"
+[versions.'0.0.1']
+netplay_compatibility = "bn4rad"
+[versions.'0.1.0']
+netplay_compatibility = "bn4radradder"
