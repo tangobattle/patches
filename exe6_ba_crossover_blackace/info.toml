@@ -1,0 +1,10 @@
+[patch]
+title = "BA Crossover Black Ace (日本語)"
+authors = [
+    "brianuuu <38166666+brianuuu@users.noreply.github.com>",
+    "ahackerjack",
+    "EXE_race"
+]
+
+[versions.'1.0.0']
+netplay_compatibility = "exe6_ba_crossover"
