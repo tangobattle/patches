@@ -1,0 +1,11 @@
+[patch]
+title = "BingusBN6+SoundMod"
+authors = [
+	"ssbmars <46971717+ssbmars@users.noreply.github.com>",
+	"オレ{Ore} <oreo7863@gmail.com>",
+]
+source = "https://github.com/ssbmars/BBN6"
+license = "MIT"
+
+[versions.'1.0.1']
+netplay_compatibility = "bingusbn6v1"
