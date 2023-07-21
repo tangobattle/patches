@@ -1,0 +1,9 @@
+[patch]
+title = "Infinite Beast"
+authors = [
+    "Prof. 9 <prof9@outlook.com>"
+]
+license = "MIT"
+
+[versions.'1.0.0']
+netplay_compatibility = "infbeast"

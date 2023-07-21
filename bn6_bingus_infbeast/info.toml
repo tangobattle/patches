@@ -1,0 +1,10 @@
+[patch]
+title = "BingusBN6 + Infinite Beast"
+authors = [
+    "ssbmars <46971717+ssbmars@users.noreply.github.com>",
+    "Prof. 9 <prof9@outlook.com>"
+]
+license = "MIT"
+
+[versions.'1.0.1']
+netplay_compatibility = "bingusbn6v1infbeast"
