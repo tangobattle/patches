@@ -3,5 +3,5 @@ In order for your patch to be accepted into the Tango patches repository, it mus
 
 - Non-trivial functionality: A patch that is not simply basic sprite replacements and parameter tweaks. The patch should have new functionality via novel code.
 - Artistic merit: A patch with trivial functionality may be accepted on a discretionary basis, such as those with cohesive visuals or kitsch aesthetics.
-- Historically significant: No new patches will be accepted under this criteria.
+- Historical significance: No new patches will be accepted under this criteria.
 -->
