@@ -5,3 +5,5 @@ license = "MIT"
 
 [versions.'1.0.0']
 netplay_compatibility = "danielbn6v1.0.0"
+[versions.'1.1.0']
+netplay_compatibility = "danielbn6v1.1.0"
