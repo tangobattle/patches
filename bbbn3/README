@@ -1,0 +1,21 @@
+BBN3 Poorly Documented Update Edition  
+10/30/2023
+
+This is a Tango-exclusive update that will be lacking proper documentation and will only be available through Tango. Consider it a fast and loose preview. The next proper update after this version will include the full changelog for this version and the next.
+
+Important changes:  
+- The quantity and severity of permaholes has been sharply reduced.  
+- Flag battles and Wind fields have been removed from Triple Battle.  
+- Restock now happens only on turns 1, 4, 8, 12.  
+- NorthWind no longer damages obstacles.  
+- Flags do not get collision glitched by obstacles such as Prism and BlackBomb.  
+- Prism has regained its vanilla HP value (infinite).  
+- The expiration timers for Auras no longer count down in timefreeze.  
+- Aura and LifeAura last 20K frames, DarkAura lasts 40K frames (all previously 16K).  
+- FlashMan and PlantMan become Mega class, both lose their Guard pierce property.  
+- ShockWave chip series modified, each version now changes panels differently.  
+- DarkHole is affected by the obstacle limit again. This hopefully fixes a bug.  
+- Several Mega & Giga chip damage buffs.  
+- A few Standard chips have had changes to damage and limit.  
+- Framedata buffs for v1 & v2 of Sensor, v1-v3 of LavaCannon.  
+- Lava panels cause flashing again.  
