@@ -3,6 +3,8 @@ BBN3 Poorly Documented Update Edition
 
 Hotpatch 1: fixed issue with save files from this version not being recognized by Tango.
 
+Hotpatch 2: fixed certain attacks such as Serenade and GroundStyle Charges not cracking panels.
+
 This is a Tango-exclusive update that will be lacking proper documentation and will only be available through Tango. Consider it a fast and loose preview. The next proper update after this version will include the full changelog for this version and the next.
 
 Important changes:  
