@@ -1,0 +1,7 @@
+[patch]
+title = "Mega Man Battle Network 6: Legend of NetBattles"
+authors = ["The Rockman EXE Zone", "Greiga Master <griegamaster@gmail.com>"]
+source = "https://therockmanexezone.com/pages/mmbn6-lon/"
+
+[versions.'0.0.1']
+netplay_compatibility = "bn6_lon_p1"
