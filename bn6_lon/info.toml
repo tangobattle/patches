@@ -5,3 +5,6 @@ source = "https://therockmanexezone.com/pages/mmbn6-lon/"
 
 [versions.'0.0.1']
 netplay_compatibility = "bn6_lon_p1"
+
+[versions.'0.1.0']
+netplay_compatibility = "bn6_lon_p1_bf1"
