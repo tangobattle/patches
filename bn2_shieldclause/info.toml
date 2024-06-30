@@ -1,0 +1,7 @@
+[patch]
+title = "BN2 Shield:Clause"
+authors = ["ssbmars <46971717+ssbmars@users.noreply.github.com>"]
+source = "https://github.com/ssbmars/bn2sc"
+
+[versions.'1.0.0']
+netplay_compatibility = "bn2sc1"
