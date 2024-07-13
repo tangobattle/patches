@@ -1,6 +1,8 @@
 This is a modified version of EXE6 that allows up to 120MB worth of ModCards to be equipped instead of 80MB.  
 This patch is for a special format called "Overclass" or simply "120MB modcards".  
 
+Bingus is included in this patch.  
+
 In Lan's room, interact with his computer to bring up the prompt that allows you to equip a ModCard.  
 
 Detailed Confirmation Messages:  
