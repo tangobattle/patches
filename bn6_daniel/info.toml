@@ -9,3 +9,5 @@ netplay_compatibility = "danielbn6v1.0.0"
 netplay_compatibility = "danielbn6v1.1.0"
 [versions.'1.2.0']
 netplay_compatibility = "danielbn6v1.2.0"
+[versions.'1.3.0']
+netplay_compatibility = "danielbn6v1.3.0"
