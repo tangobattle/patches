@@ -1,11 +1,37 @@
 BBN3 Poorly Documented Update Edition  
+
+This is a Tango-exclusive update that will not be documented on the BBN3 website and will not have a proper changelog. The lack of proper documentation will be fixed... eventually.  
+
+Update v0.0.5  
+8/2/2024  
+
+Changes:  
+- Guard abilities now have their lockout tracked separately from chip lockout. Chip lockout still prevents the use of abilities, but ability lockout does not prevent the use of chips.  
+- Guard abilities can be activated with B+Left in addition to Select. Both options remain available during battle.  
+- By using the B+Left input, guard abilities can be used up to 5f faster than with Select. B+Left effectively ignores the last 5f worth of ability lockout.  
+- Megaman gains 3f of ability lockout after moving.  
+- The Select button cannot be used to buffer a guard ability while moving.  
+- Shield/Reflect has a shortened ending animation (15f → 6f), this is a cosmetic change.  
+- Block gains LiteArmor while active.  
+- Block no longer receives a reduced lockout from blocking damage. The lockout is always 26f.  
+- Shield/Reflect ability normal lockout 21f → 26f, on-block lockout 5f → 9f  
+- AntiDmg ability normal lockout 40f → 45f, on-block lockout 6f → 9f  
+- StepSword, StepCross, and EvilCut will no longer fail if the panel they are trying to step to is occupied. Now they can attempt to step to a closer panel, or attack without stepping at all.  
+- WoodStyle CS Tornado now has the wind property when BreakCharge is installed.  
+- The Meteors MegaChip causes flashing again.  
+- Fixed an issue where the EX codes for Mega+5 and Giga+1 could still be used.  
+- Fixed Flashman being able to pierce Mole.  
+- Aura and LifeAura duration 2000f → 1600f (reverted to vanilla value)  
+- DarkAura duration 4000f → 2000f  
+- AntiSword now waits to activate instead of canceling your current action. (AntiDmg already works this way)  
+- AntiDmg and AntiSword will no longer prevent aura removal when activated.  
+
+
+Update v0.0.4  
 10/30/2023
 
-Hotpatch 1: fixed issue with save files from this version not being recognized by Tango.
-
-Hotpatch 2: fixed certain attacks such as Serenade and GroundStyle Charges not cracking panels.
-
-This is a Tango-exclusive update that will be lacking proper documentation and will only be available through Tango. Consider it a fast and loose preview. The next proper update after this version will include the full changelog for this version and the next.
+Hotpatch 1: fixed issue with save files from this version not being recognized by Tango.  
+Hotpatch 2: fixed certain attacks such as Serenade and GroundStyle Charges not cracking panels.  
 
 Important changes:  
 - The quantity and severity of permaholes has been sharply reduced.  
