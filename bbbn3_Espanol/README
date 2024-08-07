@@ -1,25 +1,51 @@
-BBN3 Poorly Documented Update Edition  
-10/30/2023
+BBN3 Edición de actualización mal documentada  
 
-Hotpatch 1: fixed issue with save files from this version not being recognized by Tango.
+Esta es una actualización exclusiva de Tango que no se documentará en el sitio web de BBN3 ni tendrá un registro de cambios adecuado. La falta de documentación adecuada se solucionará... con el tiempo.  
 
-Hotpatch 2: fixed certain attacks such as Serenade and GroundStyle Charges not cracking panels.
+Update v0.0.5  
+8/2/2024  
 
-This is a Tango-exclusive update that will be lacking proper documentation and will only be available through Tango. Consider it a fast and loose preview. The next proper update after this version will include the full changelog for this version and the next.
+Cambios:  
+- Ahora las habilidades de guard se bloquean por separado del lockout de los chips. El lockout de los chips sigue impidiendo el uso de habilidades, pero el lockout de habilidades no impide el uso de chips.  
+- Las habilidades de guard se pueden activar con B+Izquierda en adición a Select. Ambas opciones permanecen disponibles durante la batalla.  
+- Usando el input B+Izquierda, las habilidades de guard se pueden usar hasta 5f más rápido que con Select. B+Izquierda ignora los últimos 5f del lockout de habilidad.  
+- Megaman gana 3f de lockout de habilidad tras moverse.  
+- El botón Select no se puede utilizar para amortiguar una habilidad de guard mientras te mueves.  
+- Shield/Reflect tiene una animación final más corta (15f → 6f), se trata de un cambio estético.  
+- Block gana LiteArmor mientras está activo.  
+- Block ya no recibe un lockout reducido por daño de bloqueo. El lockout es siempre de 26f.  
+- Lockout de la habilidad Shield/Reflect normal 21f → 26f, lockout al bloquear 5f → 9f.  
+- Lockout de habilidad AntiDmg normal 40f → 45f, lockout al bloquear 6f → 9f.  
+- StepSword, StepCross, and EvilCut ya no fallarán si el panel que intentan pisar está ocupado. Ahora pueden intentar dar un paso hacia un panel más cercano o atacar sin dar ningún paso.  
+- WoodStyle CS Tornado ahora tiene la propiedad de viento cuando BreakCharge está instalado.  
+- El Mega Chip de Meteors causa flashing de nuevo.  
+- Se ha corregido un problema por el que los códigos EX de Mega+5 y Giga+1 podían seguir utilizándose.  
+- Se arregló que Flashman pueda atravesar a Mole.  
+- Duración de Aura y LifeAura 2000f → 1600f (se ha vuelto al valor vanilla).  
+- Duración de DarkAura 4000f → 2000f.  
+- AntiSword ahora espera a activarse en lugar de cancelar tu acción actual. (AntiDmg ya funciona así)  
+- AntiDmg y AntiSword ya no impedirán la eliminación de aura al activarse.  
 
-Important changes:  
-- The quantity and severity of permaholes has been sharply reduced.  
-- Flag battles and Wind fields have been removed from Triple Battle.  
-- Restock now happens only on turns 1, 4, 8, 12.  
-- NorthWind no longer damages obstacles.  
-- Flags do not get collision glitched by obstacles such as Prism and BlackBomb.  
-- Prism has regained its vanilla HP value (infinite).  
-- The expiration timers for Auras no longer count down in timefreeze.  
-- Aura and LifeAura last 2K frames, DarkAura lasts 4K frames (all previously 1.6K).  
-- FlashMan and PlantMan become Mega class, both lose their Guard pierce property.  
-- ShockWave chip series modified, each version now changes panels differently.  
-- DarkHole is affected by the obstacle limit again. This hopefully fixes a bug.  
-- Several Mega & Giga chip damage buffs.  
-- A few Standard chips have had changes to damage and limit.  
-- Framedata buffs for v1 & v2 of Sensor, v1-v3 of LavaCannon.  
-- Lava panels cause flashing again.  
+
+Actualización v0.0.4  
+10/30/2023  
+
+Hotpatch 1: se arregló un problema con Tango no reconociendo los archivos de guardado de esta versión.  
+Hotpatch 2: se arregló un error con ciertos ataques como los de Serenade y el GroundStyle que no rompían paneles.  
+
+Cambios importantes:  
+- La cantidad y severidad de los agujeros permanentes se redujo drásticamente.  
+- Se removieron las banderas y las áreas de viento del modo Triple Battle (batalla triple).  
+- "Restock" ahora solo ocurre en los turnos 1, 4, 8, 12.  
+- NorthWind ya no puede dañar obstaculos.  
+- Las banderas ya no se glitchean con objetos como Prism y BlackBomb.  
+- Prism vuelve a tener su valor de HP vanilla (infinito).  
+- La duración de las Auras ya no se reduce mientras el tiempo está detenido.  
+- Aura y LifeAura ahora duran 2000 frames, DarkAura ahora dura 4000 frames (previamente todas duraban 1600).  
+- FlashMan y PlantMan ahora son Mega Chips, perro ambos pierden su capacidad para atravesar Guards.  
+- La serie de chips Shockwave se modificó para que cada versión cambie paneles de manera diferente.  
+- DarkHole ahora es afectado por el límite de objetos. Se espera que esto arregle un bug.  
+- Aumento de daño a varios Mega & giga chips.  
+- varios chips Standard tuvieron cambios en su daño y cantidad limite.  
+- Se buffeo el framedata para las v1 & v2 de Sensor, y las v1 a la v3 de LavaCannon.  
+- Los paneles de lava vuelven a causar flashing.  
