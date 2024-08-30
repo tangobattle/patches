@@ -21,7 +21,7 @@ Changes:
 - The Meteors MegaChip causes flashing again.  
 - Fixed an issue where the EX codes for Mega+5 and Giga+1 could still be used.  
 - Fixed Flashman being able to pierce Mole.  
-- Aura and LifeAura duration 2000f → 1600f (reverted to vanilla value)  
+- Aura and LifeAura duration 2000f → 1600f  
 - DarkAura duration 4000f → 2000f  
 - AntiSword now waits to activate instead of canceling your current action. (AntiDmg already works this way)  
 - AntiDmg and AntiSword will no longer prevent aura removal when activated.  

@@ -21,7 +21,7 @@ Cambios:
 - El Mega Chip de Meteors causa flashing de nuevo.  
 - Se ha corregido un problema por el que los códigos EX de Mega+5 y Giga+1 podían seguir utilizándose.  
 - Se arregló que Flashman pueda atravesar a Mole.  
-- Duración de Aura y LifeAura 2000f → 1600f (se ha vuelto al valor vanilla).  
+- Duración de Aura y LifeAura 2000f → 1600f.  
 - Duración de DarkAura 4000f → 2000f.  
 - AntiSword ahora espera a activarse en lugar de cancelar tu acción actual. (AntiDmg ya funciona así)  
 - AntiDmg y AntiSword ya no impedirán la eliminación de aura al activarse.  
