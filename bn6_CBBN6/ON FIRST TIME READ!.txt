@@ -1,0 +1,10 @@
+To play my patch all you need to do is extract the files for the patch within the patches folder in tango. so put the entire "bn6_CBBN6" folder in Tango/patches. It's already in a folder so “extract here” is the quickest way. After you have added the patch you should be able to select my patch within tango and load up MMBN6 Falzar/Gregar with my patch applied!
+
+ALSO
+
+feel free to message/dm me feedback in regards to the patch. I'm always open to hear opinions on how I can make it more fun for all players.
+
+
+Credits:
+オレ{Ore}: Soundmod Creator
+ssbmars: Bingus Creator

@@ -1,0 +1,24 @@
+Chips:
+TrainArrow
+45, 50, 55 -> 50, 55, 60
+
+RollingLog Family
+80, 85, 90 -> 80, 90, 100
+
+AuraHed Family
+140, 160, 180 -> 160, 170, 180
+
+AirRaid Family
+Actually is buffed to 15 (forgot to give it the damage)
+
+Recov150
+MB Changed 40
+
+Megas:
+Circus Family
+30, 40, 60
+
+Gigas:
+Bass
+65 -> 70
+
