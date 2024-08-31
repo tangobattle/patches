@@ -1,0 +1,35 @@
+Chips:
+
+HiCannon
+MB Changed to 25
+
+AirShot
+100 -> 130
+
+Spreader Family
+120, 130, 140 -> 140, 150, 160
+
+Spreader 2/3
+MB Changed to 20/31
+
+ElcPuls1
+Increased paralysis duration
+
+AquaNeedle Family
+70, 75, 80 -> 75, 80, 85
+
+BugBomb
+100 -> 120
+Added Attack Display
+
+AquaSword
+MB Changed to 22
+
+BambSword
+MB Changed to 24
+
+SlowGauge/FastGauge
+MB Changed to 39
+
+Bugfix:
+Aquaneedle damage actually changed

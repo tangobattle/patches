@@ -1,0 +1,339 @@
+The point of this patch was to make a fun flexible PVP patch which allows weaker chips feel more viable to use and allow more freedom of use of lower ranked chips within folders. Already strong chips are mostly untouched. This description seems familiar. Also check out the LDR Patch! it's pretty cool and fun and cool.
+
+Chips:
+Cannon(Can be regged and tagged for PA)
+40 -> 150
+
+HiCannon(Can be regged and tagged for PA with higher MB)
+100 -> 170
+MB Changed to 25
+
+M-Cannon(Can be regged but not tagged together for PA)
+180 -> 190
+
+AirShot
+20 -> 130
+
+Vulcan Family
+10, 15, 20 -> 25, 25, 25
+
+Spreader1
+30 -> 140
+
+Spreader2
+60 -> 150
+MB Changed to 20
+
+Spreader3
+90 -> 160
+MB Changed to 31
+
+TankCan Family
+180, 200, 220
+Rank 1 Changed R -> *
+
+GunDelSol1
+MB Changed to 9
+
+GunDelSol3
+MB Changed to 40
+
+Yoyo
+50 -> 60
+
+FireBurn Family
+70, 110, 150 -> 100, 130, 160
+
+WideShot
+100 -> 130
+MB Changed to 30
+
+TrainArrow Family
+30, 40, 50 -> 50, 55, 60
+
+Thunder
+40 -> 80
+
+DolThdr1
+Changed code Q -> *
+
+ElcPuls1
+Increased paralysis duration
+
+ElcPuls3
+Pushes and doesn't cause flashing
+
+RlngLog Family
+50, 70, 90 -> 80, 90, 100
+
+HeatDrgn
+140 -> 150
+
+AirHocky
+60 -> 70
+
+DrillArm
+70 -> 80
+
+Minibomb
+50 -> 200
+
+EnergyBomb Family
+40, 60 -> 70, 80
+
+BlackBomb
+MB Changed to 28
+
+AquaNeedle Family
+40, 60, 80 -> 75, 80, 85
+
+CornSht Family
+50, 60, 70 -> 60, 70, 80
+Rank 1 Changed code L -> *
+
+BugBomb
+0 -> 120
+Added Attack Display
+Changed code V -> *
+
+Sword
+80 -> 170
+
+WideSword
+80 -> 140
+
+LongSword
+100 -> 150
+
+WideBlade
+150 -> 180
+
+LongBlade
+150 -> 200
+
+FireSwrd
+140 -> 160
+
+AquaSword
+MB Changed to 22
+
+BambSword
+MB Changed to 24
+
+StepSword
+160 -> 200
+
+MoonBlade
+130 -> 160
+
+CrackShot
+60 -> 130
+
+DublShot
+60 -> 100
+
+TrplShot
+100 -> 120
+
+WaveArm Family
+80, 120, 160 -> 130, 150, 170
+Rank 1 Changed code G -> *
+
+AuraHed Family
+130, 150, 170 -> 160, 170, 180
+Rank 1 Changed code D -> *
+
+LilBoiler1
+Rank 1 Changed Code L -> *
+
+SandWrm Family
+130, 150, 170 -> 150, 165, 180
+
+AirRaid1
+10 -> 15
+MB Changed to 19
+
+AirRaid2
+10 -> 15
+
+AirRaid3
+10 -> 15
+
+FireHit Family
+60, 120, 180 -> 140, 160, 180
+
+BurnSquare Family
+100, 120, 140 -> 130, 140, 150
+
+Sensor Family
+100, 130, 160 -> 140, 170, 200
+MB Changed to 22, 33, 44
+
+Boomer
+Changed code T -> *
+
+GolmHit Family
+140, 190, 250 -> 230, 240, 250
+
+IronShl
+70, 100, 130 -> 130, 140, 150
+
+Reflector
+60, 120, 200 -> 160, 180, 200
+
+Snake
+Changed Code L -> *
+Changed MB to 49
+
+SumnBlk1
+Changed Code P -> *
+
+NumberBl
+MB Changed to 50
+
+CircGun
+MB Changed to 24
+
+RockCube
+200 -> 300
+
+TimeBomb Family
+150, 190, 230 -> 190, 220, 250
+Rank 1 Changed code H -> *
+
+Mine
+Changed Code T -> *
+
+Recov150
+Changed Code T -> *
+
+SlowGauge/FastGauge
+MB Changed to 39
+
+Atk+10
+Renamed Atk+15
+
+Navi+20
+Renamed Navi+35
+MB Changed to 52
+
+ColArmy
+40 -> 80
+
+BlizzardBall
+MB Changed to 30
+
+BigBomb
+140 -> 170
+
+Megas:
+ProtoManEX
+170 - > 220
+
+HeatMan
+100 -> 130
+
+HeatManEX
+130 -> 200
+
+ElecManEX
+140 -> 165
+
+SlashMan
+80 -> 90
+
+SlashManEX
+100 -> 160
+
+ChargeMan Family
+Added Fire Element
+
+ChargeManEX
+70 -> 90
+
+SpoutManEX
+60 -> 80
+
+THawkManEX
+160 -> 200
+
+TenguManEX
+90 -> 110
+
+GroundManEX
+70 -> 90
+
+DustMan
+110 -> 130
+Added Break Element
+
+DustMan EX
+130 -> 180
+Added Break Element
+
+DustMan SP
+200 -> 230
+Added Break Element
+
+BlastManEX
+140 -> 190
+
+DiveMan
+130 -> 150 (Less util than THawk so should be stronger)
+
+DiveMan EX
+150 -> 210
+
+CircusMan
+20 -> 30
+
+CircusManEX
+25 -> 40
+
+CircusManSP
+50 -> 60
+
+Gigas:
+
+Bass
+60 -> 70
+
+BigHook
+240 -> 290
+
+CrossDiv
+250 -> 280
+
+P.A.
+GigaCannon Family
+300, 400, 500 -> 550, 600, 650
+
+WideBurn Family
+300, 350, 400 -> 375, 400, 425
+
+FlmHook
+300, 350, 400 -> 400, 425, 450
+
+PwrWave
+400, 500, 600 -> 550, 575, 600
+
+ParaShl
+350 -> 400
+
+SuprSpr
+150 -> 225
+
+LifeSword
+Changed element to sword (Can be chip charged by Slash)
+
+DblHero
+60 -> 65
+
+Darkness 
+300 -> 350
+
+MsrtCros
+100 -> 120
+
+TwinLeadrs
+200 -> 250

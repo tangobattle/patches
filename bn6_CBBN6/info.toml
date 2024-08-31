@@ -1,0 +1,12 @@
+[patch]
+title = "CyberBulliesBN6"
+authors = ["LDR100"]
+
+[versions.'1.0.0']
+netplay_compatibility = "bn6_cbbnv0"
+
+[versions.'1.0.1']
+netplay_compatibility = "bn6_cbbnv1"
+
+[versions.'1.0.2']
+netplay_compatibility = "bn6_cbbnv2"
