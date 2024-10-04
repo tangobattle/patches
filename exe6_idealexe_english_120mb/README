@@ -1,5 +1,6 @@
-This is a modified version of EXE6 that allows up to 120MB worth of ModCards to be equipped instead of 80MB.  
-This patch is for a special format called "Overclass" or simply "120MB modcards".  
+This is a modified version of EXE6 that changes the MB limit for equipping Modcards.  
+v2.0.0 sets the MB limit to 120 instead of 80.  
+v2.0.1 removes the MB limit.  
 
 Bingus is included in this patch.  
 
@@ -14,4 +15,4 @@ Supported reasons for a ModCard not being equipped:
 (Low MB): The new ModCard would cause your total MB count to exceed the limit of 120 if it were equipped, so it was not equipped. Enter the ModCard menu and remove equipped ModCards until you have enough MB available to equip the new card.  
 
 Reminders for Tournament Rules:  
-If a certain ModCard has an ability that is banned in tournaments, it will display an additional message whenever it's equipped, warning the user about the specific ability that is banned.
+If a certain ModCard has an ability that is banned in tournaments, it will display an additional message whenever it's equipped, warning the user about the specific ability that is banned. 
