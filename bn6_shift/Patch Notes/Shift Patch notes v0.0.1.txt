@@ -1,0 +1,219 @@
+Standard Chips:-
+
+-----
+Cannon -> WodCan
+- MB changed to 30
+- Damage buffed to 140
+- Element changed to Wood (Untrue)
+- * -> D
+
+HiCannon -> AquaCan
+- MB changed to 34
+- Damage buffed to 160
+- Element changed to Aqua (Fake)
+- * -> O
+
+M-Cannon -> FireCan
+- Element changed to Fire (False)
+- * -> U
+-----
+
+-----
+Vulcan1 -> NmbVulc
+- MB changed to 44
+- Damage is based of the last 2 digits of your HP (0-99)
+- Element icon changed to +/-
+- * -> N
+
+Vulcan2 -> BatVulc
+- MB changed to 32
+- Damage buffed to 25
+- Sword, Cursor, Wind, and Break as secondary elements
+
+Vulcan3 -> Vulcan
+- Damage buffed to 30
+-----
+
+-----
+Spreadr1 -> ShrpSprd
+- Damage buffed to 140
+- Element changed to Sword
+
+Spreadr2 -> HvySprd
+- Damage buffed to 120
+- Element changed to Break
+
+Spreadr3 -> SnprSprd
+- Damage buffed to 100
+- Element changed to Cursor
+-----
+
+-----
+TankCan Series gets Break as a secondary element (Lies)
+-----
+
+-----
+YoYo
+- Damage buffed to 75
+-----
+
+-----
+FireBrn1
+- Damage buffed to 120
+
+FireBrn2
+- Damage buffed to 150
+
+FireBrn3
+- Damage buffed to 180
+-----
+
+-----
+WideSht
+- Damage buffed to 140
+- Break as a secondary element
+-----
+
+-----
+TrnArrw1
+- Damage buffed to 50
+
+TrnArrw2
+- Damage buffed to 60
+
+TrnArrw3
+- Damage buffed to 70
+-----
+
+-----
+Thunder
+- MB changed to 32
+- Damage buffed 120
+- Changed to Dark Thunder Ball (stuns for more frames)
+-----
+
+-----
+DolThdr Series gets Wind as a secondary element
+-----
+
+-----
+RlngLog1 -> RlngLog
+- MB changed to 38
+- Damage buffed to 90
+- K -> *
+
+RlngLog2 -> RlngLogX
+- MB changed to 42
+- Damage buffed to 120
+
+RlngLog3 -> CrackAll
+- MB Changed to 47
+- Cracks all panels
+- N -> *
+-----
+
+-----
+AirHocky
+- Damage buffed to 80
+-----
+
+-----
+DrillArm
+- Damage buffed to 100
+-----
+
+-----
+AquaNdl1 -> might change
+
+
+AquaNdl2 -> might change
+
+
+AquaNdl3 -> AquaNdl
+- Damage buffed to 100
+-----
+
+-----
+Sword
+- Hits in an X (Cross Slash), double hit directly in front
+
+WideSwrd
+- Damage buffed to 120
+
+LongSwrd -> FtrSword
+- Damage buffed to 120
+- Range buffed to 3
+
+WideBlde -> HeroStrk
+- MB changed to 52
+- Changed to Mega Class
+- Damage nerfed to 5
+- Time Freeze, now does DblHero attack
+
+LongBlde -> HeroSwrd
+- Damage buffed to 170
+- Range buffed to 3
+
+Geddon
+- MB changed to 50
+-----
+
+Program Advances:
+
+-----
+GigaCan1 -> GigaCanW
+- Damage buffed to 450
+- Element changed to Wood (Bluff)
+- Got Break as a secondary element (Nah)
+
+GigaCan2 -> GigaCanA
+- Damage buffed to 450
+- Element changed to Water (Clickbait)
+- Got Break as a secondary element (Nuh uh)
+
+GigaCan3 -> GigaCanF
+- Damage nerfed to 400
+- Element changed to Fire (Nope)
+- Break as a secondary element (No...)
+-----
+
+-----
+WideBrn1
+- Damage buffed to 400
+
+WideBrn2
+- Damage buffed to 450
+
+WideBrn3
+- Damage buffed to 500
+-----
+
+-----
+SuprSpr
+- Break as a secondary element
+-----
+
+-----
+H-Burst -> B-Burst
+- Sword, Cursor, Wind, and Break as secondary elements
+-----
+
+-----
+LifeSwrd
+- Damage buffed to 700
+-----
+
+-----
+GreatYo
+- Damage buffed to 125
+-----
+
+-----
+PitHocky
+- Damage buffed to 125
+-----
+
+-----
+DblHero -> HeroArm
+- Gives Fighter Sword (3 Range Long Sword) Charge Shot
+(PA consists of HeroStrk, HeroSwrd, ProtoMnSP, in that order.)
