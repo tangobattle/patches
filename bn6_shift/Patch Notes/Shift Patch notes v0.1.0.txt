@@ -153,7 +153,7 @@ AuraHed2 -> AuraHedH
 - Damage nerfed to 140
 - Primary element changed to Fire
 
-AuraHed3 -? AuraHedW
+AuraHed3 -> AuraHedW
 - Primary element changed to Wood
 -----
 
@@ -181,6 +181,7 @@ GolmHit1 -> ShftSwrd
 - Changed to Giga Class
 - Element icon changed to Sword
 - Wind as a secondary element
+- Code changed to *, all other codes were removed
 - Does VarSword inputs:
   No input - WideSwrd
    ↓ ↘ →   - HeroSwrd
