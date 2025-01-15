@@ -1,0 +1,440 @@
+Standard Chips:-
+
+-----
+Cannon
+- MB changed to 38
+- Damage buffed to 180
+- Codes changed to R, S, T, *
+- Element changed to Fire (doesn't deal fire dmg, gets heatcross boost but for some reason chargecross can't charge it properly)
+- Primary element changed to Water (doesn't deal aqua dmg, heals if used as spoutcross)
+
+HiCannon -> AirShot
+- MB changed to 1
+- Damage buffed to 150
+- Element changed to Wind
+- Does AirShot attack
+- Codes changed to A, B, C, *
+
+M-Cannon -> Dragoon
+- Damage nerfed to 100
+- Sword and Cursor as secondary elements (Null icon)
+- Does Dragon attack
+- Codes changed to N, O, P, Q
+-----
+
+-----
+AirShot -> SmnEvil
+- MB changed to 66
+- Damage buffed to 666
+- Changed to Giga Class
+- Does SumnBlk attack
+- * -> X
+-----
+
+-----
+Vulcan1 -> NmbVulc
+- MB changed to 44
+- Damage is based of the last 2 digits of your HP (0-99)
+- Element icon changed to +/-
+- * -> N
+
+Vulcan2 -> BatVulc
+- MB changed to 32
+- Damage buffed to 25
+- Sword, Cursor, Wind, and Break as secondary elements
+
+Vulcan3 -> Vulcan
+- Damage buffed to 30
+-----
+
+-----
+Spreadr1 -> ShrpSprd
+- Damage buffed to 140
+- Element changed to Sword
+
+Spreadr2 -> HvySprd
+- Damage buffed to 120
+- Element changed to Break
+
+Spreadr3 -> SnprSprd
+- Damage buffed to 100
+- Element changed to Cursor
+-----
+
+-----
+TankCan1 -> StingHny
+- MB changed to 44
+- Does RskyHny2 attack
+- Element icon changed to Cursor
+- Codes changed to I, O, P
+
+TankCan2 -> TankCan
+- Damage buffed to 180
+- V -> *
+
+TankCan3 -> TankCanX
+- Damage buffed to 220
+-----
+
+-----
+YoYo
+- Damage buffed to 75
+-----
+
+-----
+FireBrn1
+- Damage buffed to 120
+
+FireBrn2
+- Damage buffed to 150
+
+FireBrn3
+- Damage buffed to 180
+-----
+
+-----
+WideSht
+- Damage buffed to 140
+- Break as a secondary element
+-----
+
+-----
+TrnArrw1
+- MB changed to 36
+- Damage buffed to 45
+
+TrnArrw2
+- MB changed to 40
+- Damage buffed to 60
+
+TrnArrw3
+- MB changed to 44
+- Damage buffed to 70
+-----
+
+-----
+Thunder
+- MB changed to 32
+- Damage buffed 120
+- Changed to Dark Thunder Ball (stuns for more frames)
+-----
+
+-----
+DolThdr Series gets Wind as a secondary element
+-----
+
+-----
+RlngLog1 -> RlngLog
+- MB changed to 38
+- Damage buffed to 90
+- K -> *
+
+RlngLog2 -> RlngLogX
+- MB changed to 42
+- Damage buffed to 120
+
+RlngLog3 -> CrackAll
+- MB Changed to 47
+- Cracks all panels
+- N -> *
+-----
+
+-----
+AirHocky
+- Damage buffed to 80
+-----
+
+-----
+DrillArm
+- Damage buffed to 100
+-----
+
+-----
+MiniBomb
+- MB changed to 44
+- Damage buffed to 250
+- * -> M
+
+EnergBom
+- MB changed to 45
+- Damage buffed to 100
+- * -> E
+
+MegEnBom -> BreakSwr
+- Damage buffed to 140
+- Codes changed to F, I, K, O
+- Does WideSword attack with WideBlade visuals
+- Element icon changed to Break
+- Sword as a secondary element
+
+BigBomb -> LifeSrd
+- MB changed to 47
+- Damage buffeed to 180
+- Element icon changed to Sword
+- Codes changed to H, L, S
+-----
+
+-----
+AquaNdl1 -> AquaPuls 
+- MB changed to 52
+- Damage buffed to 100
+- Does an ElecPulse attack that freezes
+- Codes changed to C, D (removed a code)
+
+AquaNdl2 -> SporSwrd
+- MB changed to 75
+- Does WideSword attack that stuns
+- Element icon changed to Break
+- Primary element changed to Wood
+- Sword as a secondary element
+- Codes changed to S, P (removed a code)
+
+AquaNdl3 -> AquaNdl
+- Damage buffed to 100
+-----
+
+-----
+Sword
+- Damage buffed to 120
+- Does WideSwrd attack
+
+WideSwrd -> MoonBlde
+- MB changed to 52
+- Damage buffed to 290
+- Changed to Mega Class
+- Does MoonBld attack
+- Codes changed to A, M, S, T
+
+LongSwrd -> BHeroSwr
+- MB changed to 36
+- Range buffed to 3
+- Wind, Cursor, and Break as secondary elements
+
+WideBlde -> HeroStrk
+- MB changed to 52
+- Changed to Mega Class
+- Damage nerfed to 30
+- Time Freeze, now does DblHero attack
+- Damage is not displayed, disallowing boosts
+
+LongBlde -> HeroSwrd
+- Damage buffed to 180
+- Range buffed to 3
+- Wind as a secondary element
+-----
+
+-----
+VarSword
+- MB changed to 41
+- Damage nerfed to 140
+- Does NeoVari inputs
+-----
+
+-----
+MoonBld -> PrcBlde
+- Damage nerfed to 120
+- Element icon changed to cursor
+- Sword as a secondary element
+-----
+
+-----
+AuraHed1 -> AuraHedA
+- MB changed to 43
+- Damage buffed to 150
+- Primary element changed to Water
+
+AuraHed2 -> AuraHedH
+- MB changed to 41
+- Damage nerfed to 140
+- Primary element changed to Fire
+
+AuraHed3 -? AuraHedW
+- Primary element changed to Wood
+-----
+
+-----
+LilBolr1 -> LDNado (LDR's special chip)
+- MB changed to 77
+- Damage nerfed to 15
+- Element icon changed to Wind
+- Primary element changed to Fire
+- Does a 9 hit tornado attack that freezes
+- Codes changed to L, D, R
+
+LilBolr2 -> LilBolr
+- MB changed to 19
+- V -> *
+
+LilBolr3 -> LilBolrX
+- Damage buffed to 190
+-----
+
+-----
+GolmHit1 -> ShftSwrd
+- MB changed to 99
+- Damage buffed to 500
+- Changed to Giga Class
+- Element icon changed to Sword
+- Wind as a secondary element
+- Does VarSword inputs:
+  No input - WideSwrd
+   ↓ ↘ →   - HeroSwrd
+   ↑ → ↓   - MoonBlde
+ ← ↙ ↓ ↘ → - DblBeast
+ ↓ ← ↑ → ↓ - LifeArm
+  ← B → B  - SonicBom
+
+GolmHit2
+- Damage buffed to 200
+-----
+
+-----
+CopyDmg -> BigHook
+- MB changed to 43
+- Damage buffed to 120
+- Changed to Mega Class
+- Element changed to Break
+- Time Freeze, now does BigHook attack
+-----
+
+-----
+LifeSync -> BigHookSP
+- MB changed to 91
+- Damage nerfed to 200
+- Changed to Mega Class
+- Element changed to Break
+- Time Freeze, now does BigHook attack
+- * -> H
+-----
+
+-----
+ElemTrap
+- Damage buffed to 290
+-----
+
+-----
+ColArmy
+- Cursor as a secondary element
+- Damage buffed to 50
+-----
+
+-----
+Geddon
+- MB changed to 50
+-----
+
+Mega Chips:
+
+-----
+Roll
+- MB changed to 30
+- Damage buffed to 30
+
+Roll2
+- MB changed to 50
+- Damage buffed to 50
+
+Roll3
+- MB changed to 70
+- Damage buffed to 70
+-----
+
+Giga Chips:
+
+Gregar
+-----
+Bass
+- Damage buffed to 65
+
+BigHook -> Comets
+- Damage nerfed to 85
+- Primary element changed to Fire
+- Does Meteors attack
+- H -> C
+
+Deltaray
+- Damage buffed to 280
+
+BugRSwrd
+- Element icon changed to Null
+-----
+
+Falzar
+-----
+CrossDiv
+- Damage buffed to 260
+-----
+
+Program Advances:
+
+-----
+GigaCan1 -> GigaCanW
+- Damage buffed to 600
+- Element icon changed to Fire (refer to Cannon)
+- Primary element changed to Water (refer to Cannon)
+
+GigaCan2 -> AirRapid
+- Damage nerfed to 150
+- Wind as a secondary element
+- Does Vulcan2 attack (also pushes)
+
+GigaCan3 -> DrgonArm
+- Changes Charge Shot to Dragoon attack
+-----
+
+-----
+WideBrn1
+- Damage buffed to 400
+
+WideBrn2
+- Damage buffed to 450
+
+WideBrn3
+- Damage buffed to 500
+-----
+
+-----
+SuprSpr
+- Break as a secondary element
+-----
+
+-----
+H-Burst -> B-Burst
+- Sword, Cursor, Wind, and Break as secondary elements
+-----
+
+-----
+StreamHd
+- Primary element changed to Elec
+-----
+
+-----
+LifeSrd -> LifeArm
+- Changes Charge Shot to LifeSrd
+-----
+
+-----
+GreatYo
+- Damage buffed to 125
+-----
+
+-----
+PitHocky
+- Damage buffed to 125
+-----
+
+-----
+DblHero -> HeroArm
+- Gives Fighter Sword (3 Range Long Sword) Charge Shot
+(PA consists of HeroStrk, HeroSwrd, ProtoMnSP, in that order.)
+-----
+
+-----
+Darkness
+- Damage buffed to 400
+-----
+
+-----
+MstrCros
+- Damage buffed to 115
+-----
