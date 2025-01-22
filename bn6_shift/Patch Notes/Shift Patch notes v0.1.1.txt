@@ -1,3 +1,3 @@
 changed MegaMan.EXE's palette, and emotion windows.
 
-this is compatible with v0.1.0 as it is only an aesthitic change.
+this is compatible with v0.1.0 as it is only an aesthetic change.
