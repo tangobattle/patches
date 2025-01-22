@@ -7,3 +7,6 @@ netplay_compatibility = "unnamedlol"
 
 [versions.'0.1.0']
 netplay_compatibility = "Shift 0.1.0"
+
+[versions.'0.1.1']
+netplay_compatibility = "Shift 0.1.0"
