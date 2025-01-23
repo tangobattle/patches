@@ -1,4 +1,4 @@
-Standard Chips:-
+Standard Chips:
 
 -----
 Cannon -> WodCan
