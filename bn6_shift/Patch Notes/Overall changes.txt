@@ -3,7 +3,7 @@ changed MegaMan.EXE's palette, and emotion windows.
 
 this is only for v0.1.1, and is compatible with v0.1.0 as it is only an aesthetic change.
 
-Standard Chips:-
+Standard Chips:
 
 -----
 Cannon
