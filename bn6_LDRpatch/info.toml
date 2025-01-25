@@ -1,0 +1,10 @@
+[patch]
+title = "LDR Patch"
+authors = ["LDR100"]
+
+source = "https://drive.google.com/drive/folders/17M6CSQt8WcYeJbR0HprAUYgXIRwk4ePH"
+
+[versions.'1.4.7']
+netplay_compatibility = "bn6_ldrv47"
+[versions.'1.4.8']
+netplay_compatibility = "bn6_ldrv48"
