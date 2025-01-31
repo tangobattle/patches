@@ -21,3 +21,6 @@ netplay_compatibility = "bn6random_v0.0.4"
 
 [versions.'0.0.5']
 netplay_compatibility = "bn6random_v0.0.5"
+
+[versions.'0.0.6']
+netplay_compatibility = "bn6random_v0.0.6"
