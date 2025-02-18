@@ -22,9 +22,9 @@ jobs:
             url: ${{ steps.deployment.outputs.page_url }}
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/checkout@v3
+            - uses: actions/checkout@v4
             - run: ./.tools/build_index.py > index.json
-            - uses: actions/upload-pages-artifact@v4
+            - uses: actions/upload-pages-artifact@v3
               with:
                   path: "."
             - uses: actions/deploy-pages@v1
