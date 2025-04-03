@@ -8,3 +8,5 @@ source = "https://drive.google.com/drive/folders/17M6CSQt8WcYeJbR0HprAUYgXIRwk4e
 netplay_compatibility = "bn6_ldrv50"
 [versions.'1.5.1']
 netplay_compatibility = "bn6_ldrv51"
+[versions.'1.5.2']
+netplay_compatibility = "bn6_ldrv52"
