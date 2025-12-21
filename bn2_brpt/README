@@ -1,0 +1,65 @@
+Enredo
+------------------
+
+A paz foi perturbada novamente, mas o culpado dessa vez não é a WWW, mas sim um novo grupo de mafiosos da rede chamados de Gospel. Lan está começando suas férias escolares, onde planeja vários passeios e aventuras, mas isso é atrapalhado pela Gospel e suas atividades suspeitas.
+
+Lan e MegaMan trabalham juntos para impedir crises à medida que surgem, e eventualmente descobrem o plano da Gospel: criar um Super Navi e dominar a rede. Será que nossa dupla dinâmica conseguirá impedi-los a tempo?
+
+------------------
+Sobre a tradução
+------------------
+
+Essa é uma tradução em conjunta entre Sahgo, DiegoHH e eu. Sahgo é super fã dessa série, e traduziu sozinho o primeiro jogo lá por 2016, sem a ajuda de ferramentas externas, usando largamente um editor hexadecimal e um editor de tiles pra acentuar a fonte. Embora falte gráficos e contenha abreviações aqui e ali, é uma tradução feita com esmero e que funcionou muito bem pra passar a imagem do jogo, bem como eventuais adaptações de localização.
+
+Em 2017, Sahgo juntou-se a nós para traduzir scripts de outros jogos, como da série Phoenix Wright Ace Attorney, e havia expressado um desejo de também traduzir o segundo jogo da série MegaMan Battle Network. Dessa vez, optamos por dar mais assistência a ele na parte técnica, desenvolvendo as ferramentas pra textos e gráficos e fazendo com que ele se foque largamente na tradução em si. Dentre as ferramentas desenvolvidas, uma delas implementa uma fonte VWF pros diálogos do jogo, assim cabendo mais textos e melhorando diálogos, e outra é um dumper/inserter feito em python. Porém, a tradução tem ficado empacada por um tempo devido a um problema no nosso dumper/inserter que fazia a rom crashar, e então meio que engavetamos a tradução.
+
+Em 2022, um colega nosso chamado Anime_World deu a dica de testar uma ferramenta nova chamada TextPet, desenvolvida pelo romhacker espanhol Prof 9. Trata-se de um dumper/inserter plenamente funcional, que funciona por expandir a rom e mover os textos pro final dela. Decidi passar ela pro Sahgo e pedir pra ele testar a ferramenta, pra ver se funciona. Acabou que funcionou, e então seguimos migrando os textos do formato antigo para o formato novo dessa ferramenta.
+
+Graças a isso, tivemos a tradução com a parte textual 100% traduzida e funcional, restando apenas editar gráficos e corrigir bugs. Falando na parte gráfica, o denim foi o principal ajudante nesta área, provendo grandes direcionamentos e criando ferramentas que permitiam editar vários dos gráficos com uma facilidade bem maior do que seria se fosse feito na mão. Com isso provido, todas as imagens do jogo foram editadas de acordo, tornando a tradução ainda mais completa.
+
+Assim sendo, após todo esse trabalho, e praticamente 5 anos depois, finalizamos essa tradução e lançamos à comunidade. Esperamos que usufruam da tradução, da mesma forma que também o fizemos em todo esse processo.
+
+------------------
+Atualizações da Tradução
+------------------
+
+Versão 1.2: 01/06/2025
+ Terceiro lançamento.
+ - Editado gráfico pendente "NAL", ao acessar a rede dos aviões do aeroporto.
+ - Editado gráfico pendente "Trap", acionado ao usar Anti-Chips.
+ - Trocadas ocorrências de "RegUp" para "Padrão+", por ser o novo termo usado nas traduções seguintes.
+ - Atualizado ano do copyright da tela-título para 2025.
+ - Disponibilizado patch tanto em formatos xdelta como IPS.
+Versão 1.1: 29/03/2025
+ Segundo lançamento.
+ - Diversas correções textuais de revisão, após eu ter zerado o jogo nela mês passado.
+Versão 1.0: 02/11/2023
+ Primeiro lançamento.
+
+------------------
+Status da Tradução
+------------------
+
+Textos: 100%
+Acentos: 100%
+Gráficos: 100%
+Revisão: 100%
+
+------------------
+Ferramentas Utilizadas
+------------------
+
+- HxD Hex Editor : Editor hexadecimal usado para edições diversas;
+- WindHex : Editor hexadecimal usado para edições diversas;
+- TextPet : Tool criada pelo romhacker espanhol Prof. 9 e usada para editar textos do jogo;
+- Tile Molester Mod : Editor de tiles usado para edição dos gráficos do jogo.
+
+------------------
+Agradecimentos
+------------------
+
+- Capcom, por ter lançado o jogo;
+- Ao Solid, DiegoHH, denim e Kosmus, por todo o auxílio na parte técnica do jogo;
+- Ao Anime_World, pela dica da ferramenta TextPet;
+- Ao Prof.9, por ter criado a ferramenta TextPet.
+- Ao Immaryx, Immegax e Hikare Netto, pela assistência em prol de um futuro port da tradução para a coletânea.

@@ -1,0 +1,58 @@
+Enredo
+------------------
+
+Enquanto os cientistas do mundo secretamente se esforçam para parar um meteoro que ameaça destruir o planeta Terra, Lan e MegaMan entram em uma série de torneios na esperança de provar suas habilidades, culminando nos Torneios Sol Vermelho/Lua Azul. No entanto, Nebula, uma nova organização criminosa, tem espalhado um poder deslumbrante que ameaça a própria existência de almas de Navis. Será que MegaMan conseguirá resistir à tentação do poder negro?
+
+------------------
+Sobre a tradução
+------------------
+
+Essa é uma tradução em conjunta entre Sahgo, eu e o pessoal do grupo MegaSpace. Sahgo é super fã dessa série, e traduziu sozinho os primeiros jogos da série. Com o sucesso de traduzir os jogos anteriores com a ferramenta de texto TextPet, feita pelo romhacker Prof. 9, somado ao apoio técnico do pessoal do The Rockman EXE Zone (TREZ) em partes mais avançadas de romhacking, conseguimos fazer a tradução desse jogo virar realidade.
+
+Em 2025, logo após o lançamento da primeira versão da tradução do Megaman Battle Network 3, vários membros novatos se ofereceram para nos ajudar corrigindo bugs e erros ortográficos. Isso nos motivou a expandir nosso grupo e montar um novo servidor no Discord, para comportar a tradução dos títulos seguintes da série. Isso culminou na criação do grupo "MegaMan Brasil", reunindo cerca de uma dúzia de pessoas fãzaços de jogos de MegaMan, o que permitiu dar um belo boost na tradução do quarto jogo da série.
+
+Ao longo dos meses seguintes, o projeto foi iniciado. Comecei montando esse repositório, configurando o TextPet pra lidar com a parte textual igual no MMBN3. Acentuei as fontes do jogo, editei os primeiros gráficos do jogo, e consegui ajuda do Kosmus pra editar as telas-título. Passei os scripts pro Sahgo, que em poucas semanas, fazendo uso do "mmbn-dialog-previewer" (https://github.com/leomontenegro6/mmbn-dialog-previewer), fez uma tradução primorosa dos scripts do jogo. Isso nos permitiu rapidamente criar betas experimentais internos para iniciarmos testes ingame, o que foi rapidamente agilizado graças a membros do canal como PedroX, Gustavo Fraga e JonhSSG, que em questão de dias platinaram as duas versões e relataram centenas de sugestões e correções para o Sahgo fazer.
+
+Com a parte de tradução, revisão e testes ingame encaminhadas, segui com o restante das pendências de romhacking. Trocando ideia com o pessoal do TREZ, descobrimos que a fonte de diálogos principal já possui uma VWF embutida e que bastaria ajustar sua tabela VWF para conseguirmos um resultado muito próximo do obtido no BN2 e BN3. Também segui editando gráficos dos menus do jogo aos poucos, e pra nossa sorte, vários deles eram os mesmos do BN3 com outra paleta de cor, fazendo com que a edição desses seja questão de ctrl+c e ctrl+v, com os remanescentes sendo editados pelo PedroX.
+
+Junto com os gráficos dos menus, seguimos editando gráficos de backgrounds. Para esses casos, usamos a ferramenta gráfica PixelPet feita pelo Prof.9. Lá no TREZ, o TTK explicou como os contêiners de tilesets e tilemaps para gráficos de background funcionam, e com essas explicações, desenvolvi uns scripts PHP que, combinados com o PixelPet, permitiram extrair os gráficos para PNG e inserir de volta pra binário, atualizando automaticamente todos os tilemaps e re-gerando os contêineres editados. Isso nos permitiu editar todos os gráficos de background que precisávamos, com o mesmo nível de praticidade que tivemos no BN2, e nas semanas seguintes eu estive editando os gráficos de backgrounds, juntamente do PedroX e o victoriemini, que também criou capas com logos editados.
+
+Graças a todo esse imenso trabalho em equipe, finalizamos essa tradução e lançamos à comunidade, disponível em ambas as versões Sol Vermelho e Lua Azul. Esperamos que usufruam da tradução, da mesma forma que também o fizemos em todo esse processo.
+
+------------------
+Atualizações da Tradução
+------------------
+
+Versão 1.0: 20/12/2025
+ Primeiro lançamento.
+
+------------------
+Status da Tradução
+------------------
+
+Textos: 100%
+Acentos: 100%
+Gráficos: 100%
+Revisão: 100%
+
+------------------
+Ferramentas Utilizadas
+------------------
+
+- HxD Hex Editor : Editor hexadecimal usado para edições diversas;
+- WindHex : Editor hexadecimal usado para edições diversas;
+- TextPet : Tool criada pelo romhacker Prof. 9 e usada para editar textos do jogo;
+- PixelPet : Tool criada pelo romhacker Prof. 9 para lidar com gráficos mais avançados;
+- Tile Molester Mod : Editor de tiles usado para edição dos gráficos do jogo.
+- armips assembler : Ferramenta utilizada para remontar a rom, após edições.
+- MMBN Dialog Previewer : Extensão do VSCode criada para facilitar a tradução de scripts pela ferramenta TextPet
+
+------------------
+Agradecimentos
+------------------
+
+- Capcom, por ter lançado o jogo;
+- Ao pessoal do grupo MegaMan Brasil, pelo apoio;
+- Ao TTK, por todo o auxílio na parte técnica do jogo;
+- Ao Prof.9, por ter criado as ferramentas TextPet e PixelPet.
+- Ao pessoal do grupo The Rockman EXE Zone, pelo apoio geral em romhacking de jogos da série MMBN.
