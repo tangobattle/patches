@@ -1,6 +1,7 @@
 [patch]
 title = "BN3 Português Brasileiro"
 authors = ["Sahgo"]
+source = "https://www.romhacking.net.br/index.php?topic=3049.0"
 
 [versions.'1.2.0']
 netplay_compatibility = "bn3"
