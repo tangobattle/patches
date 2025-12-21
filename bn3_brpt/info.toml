@@ -1,0 +1,9 @@
+[patch]
+title = "BN3 Português Brasileiro"
+authors = ["Sahgo"]
+
+[versions.'1.2.0']
+netplay_compatibility = "bn3"
+
+[versions.'1.2.1']
+netplay_compatibility = "bn3"

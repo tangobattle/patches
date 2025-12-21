@@ -1,0 +1,6 @@
+[patch]
+title = "BN1 Português Brasileiro"
+authors = ["Sahgo"]
+
+[versions.'1.1.0']
+netplay_compatibility = "bn1"

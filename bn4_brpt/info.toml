@@ -1,0 +1,6 @@
+[patch]
+title = "BN4 Português Brasileiro"
+authors = ["Sahgo"]
+
+[versions.'1.0.0']
+netplay_compatibility = "bn4"

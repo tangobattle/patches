@@ -1,0 +1,63 @@
+Enredo
+------------------
+
+O jogador assume o papel de Lan Hikari, um aluno de 11 anos que controla o seu NetNavi MegaMan.EXE através de um dispositivo PET (Terminal Pessoal). A história se passa em um futuro onde a internet se tornou o centro da vida, com comércio, trabalho e até mesmo crimes ocorrendo no mundo virtual. Lan e MegaMan lutam contra a organização criminosa WWW (Mundo Três), que busca dominar o mundo através de programas de computador e da captura de outros NetNavi.
+
+------------------
+Sobre a tradução
+------------------
+
+Essa é a primeira tradução que o Sahgo fez para a série MegaMan Battle Network lá em 2015. Sahgo é um grande fã dessa série e, em um momento de ócio de greve de faculdade, teve a ideia de tentar aprender romhacking traduzindo esse jogo. Após um mês quase todo "em transe", ele traduziu ele todo sozinho.
+
+Na época, a tradução foi toda feita com editor hexadecimal, e graficamente a tradução teve no máximo os acentos editados. Não havia ferramenta para editar textos como o TextPet ainda, e a tradução teve de ser feita toda respeitando as várias limitações de espaço original, por isso havendo inúmeras abreviações aqui e ali. Ainda sim, Sahgo conseguiu ir do começo ao fim desse jeito, e conseguiu lançar a primeira versão desta tradução que, embora não seja perfeita, é a primeira em que o jogo está totalmente traduzido do começo ao fim.
+
+Uns quase 10 anos depois, outras pessoas decidiram ajudar o Sahgo nessa empreitada, resultando na tradução do MegaMan Battle Network 2 e no início do projeto de tradução do MegaMan Battle Network Legacy Collection volume 1. Falando especificamente na coletânea, foi iniciada a ideia de retraduzir o MMBN1 para a coletânea, iniciada pelo colega Immegax do grupo "MegaSpace", dessa vez fazendo uso da ferramenta TextPet e contemplando diversas edições gráficas em HD. Nesse meio tempo, também decidimos portar essa mesma retradução do MMBN1 da coletânea para a versão de GBA, assim resultando na versão 1.1 da tradução.
+
+Até então a versão 1.1 conta apenas com os textos retraduzidos pelo TextPet como forma de contornar as limitações de antes e resolver alguns bugs que podiam fazer o jogo congelar, bem como a fonte editada para ser a mesma do MMBN2 (sem VWF no momento), somado a alguns poucos gráficos editados. Futuramente, a ideia é fazer uma tradução 100%, seguindo as mesmas linhas das traduções do MMBN2 e MMBN3.
+
+Bom, então é isso. Esperamos que usufruam da tradução, da mesma forma que também o fizemos em todo esse processo.
+
+------------------
+Atualizações da Tradução
+------------------
+
+Versão 1.1: 05/06/2025
+ Segundo lançamento.
+ - Retraduzido o jogo inteiro através do TextPet.
+ - Contornadas várias abreviações oriundas de limites de espaço.
+ - Resolvidos bugs que podiam fazer o jogo congelar em momentos específicos.
+ - Editados alguns poucos gráficos da tela-título.
+ - Alterada fonte dos diálogos para se assimilar mais à do MMBN2.
+
+Versão 1.0: 17/06/2015
+ Primeiro lançamento.
+
+------------------
+Status da Tradução
+------------------
+
+Textos: 100%
+Acentos: 100%
+Gráficos: 5%
+Revisão: 90%
+
+------------------
+Ferramentas Utilizadas
+------------------
+
+- HxD Hex Editor : Editor hexadecimal usado para edições diversas;
+- WindHex : Editor hexadecimal usado para edições diversas;
+- TextPet : Tool criada pelo romhacker espanhol Prof. 9 e usada para editar textos do jogo;
+- Tile Molester Mod : Editor de tiles usado para edição dos gráficos do jogo.
+- armips assembler : Ferramenta utilizada para remontar a rom, após edições.
+- MMBN Dialog Previewer : Extensão do VSCode criada para facilitar a tradução de scripts pela ferramenta TextPet
+- MMBN BG Graphic Unpacker : Ferramenta usada para editar gráficos de backgrounds do jogo
+
+------------------
+Agradecimentos
+------------------
+
+- Capcom, por ter lançado o jogo;
+- Ao Solid e denim por todo o auxílio na parte técnica do jogo;
+- Ao Prof.9, por ter criado a ferramenta TextPet.
+- Ao Immaryx, Immegax e Hikare Netto, pela retradução do MMBN1 para a coletânea, que também possibilitou aprimorar a versão de GBA.
