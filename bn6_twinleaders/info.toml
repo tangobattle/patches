@@ -1,7 +1,6 @@
 [patch]
 title = "bn6_TwinLeaders"
-authors = ["TTK ",
-	"ChinaTV  <167204638+ChinaTV1@users.noreply.github.com>"]
+authors = ["TTK , ChinaTV"]
 
 [versions.'0.0.1']
 netplay_compatibility = "bn6_tl1"
