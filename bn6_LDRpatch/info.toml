@@ -24,3 +24,5 @@ netplay_compatibility = "bn6_ldrv55"
 netplay_compatibility = "bn6_ldrv56"
 [versions.'1.5.7']
 netplay_compatibility = "bn6_ldrv57"
+[versions.'1.5.8']
+netplay_compatibility = "bn6_ldrv58"
