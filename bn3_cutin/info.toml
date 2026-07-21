@@ -1,0 +1,7 @@
+[patch]
+title = "BN3 Cut-In"
+authors = ["bigfarts"]
+source = ""
+
+[versions.'0.2.0']
+netplay_compatibility = "bn3_cutin_0"

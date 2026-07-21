@@ -1,0 +1,7 @@
+[patch]
+title = "EXE3 Cut-In"
+authors = ["bigfarts"]
+source = ""
+
+[versions.'0.2.0']
+netplay_compatibility = "exe3_cutin_0"
