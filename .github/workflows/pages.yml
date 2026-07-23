@@ -23,8 +23,42 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v4
-            - run: ./.tools/build_index.py > index.json
+
+            # The bundler lives in the tango repo. Only its own directory
+            # is checked out, and without submodules: the tango workspace
+            # depends on the private `gamesupport` submodule, which a
+            # public runner can't clone. `tango-patch` is its own
+            # workspace root precisely so this works.
+            - uses: actions/checkout@v4
+              with:
+                  repository: tangobattle/tango
+                  path: .tango
+                  sparse-checkout: tango-patch
+                  sparse-checkout-cone-mode: false
+
+            - uses: actions/cache@v4
+              with:
+                  path: |
+                      ~/.cargo/registry
+                      ~/.cargo/git
+                      ~/.cargo/bin/tango-patch
+                  key: tango-patch-${{ hashFiles('.tango/tango-patch/Cargo.lock', '.tango/tango-patch/src/**') }}
+
+            - run: cargo install --path .tango/tango-patch --features cli --locked
+
+            # Every package must be well-formed before anything ships:
+            # a package that fails to open here would fail to open in
+            # the app, and the index would happily list it.
+            - run: tango-patch validate $(find . -name '*.tangopatch' | sort)
+
+            # Builds index.json — the only file clients poll — and
+            # extracts each package's README beside it so the app can
+            # show one before downloading the package itself.
+            - run: tango-patch index . --readmes
+
             - uses: actions/upload-pages-artifact@v3
               with:
                   path: "."
+
             - uses: actions/deploy-pages@v4
+              id: deployment

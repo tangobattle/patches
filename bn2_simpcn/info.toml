@@ -1,7 +1,0 @@
-[patch]
-title = "洛克人EXE2 简体中文化"
-authors = ["flyeyes汉化组 <593002516@qq.com>"]
-
-[versions.'1.0.0']
-netplay_compatibility = "bn2"
-

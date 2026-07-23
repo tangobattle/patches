@@ -1,49 +1,168 @@
 # Tango patch repository
 
-This is the repository from which Tango is able to load patches from.
+This is the repository Tango loads patches from.
+
+Each patch version is a single `.tangopatch` file — a package holding
+its metadata, its patches, its save templates and its README. Tango
+downloads one only when it needs it: you install it, someone you're
+about to play uses it, or a replay was recorded with it. Nobody
+downloads the whole repository.
 
 ## Submitting a patch
 
-Each patch is placed in its own directory in this repository, with a uniquely identifying name for it. A patch must contain a valid `info.toml` file, as well as versioned patch files (`.bps` only).
+Build a package with the `tango-patch` tool and commit it to a
+directory named after your patch:
 
-### `info.toml`
+```
+bn6_allstars/
+├── bn6_allstars-1.0.0.tangopatch
+└── bn6_allstars-1.1.0.tangopatch
+```
 
-`info.toml` contains metadata about your patch. You must have this file to identify your patch.
+Installing the tool:
 
-#### The `[patch]` section
+```sh
+git clone https://github.com/tangobattle/tango
+cargo install --path tango/tango-patch --features cli
+```
 
-The first (and only) section in `info.toml` is `[patch]`.
+### Building your package
 
-##### The `title` field
+Lay out a directory like this and run `tango-patch pack`:
 
-The human-readable title of your patch. This will be displayed to users in the UI.
+```
+my-patch/
+├── manifest.toml
+├── README.md                 # optional, shown in Tango
+├── roms/BR6E_00.bps          # at least one required
+├── roms/BR5E_00.bps
+├── saves/BR6E_00.sav         # optional, a starting save
+└── saves/BR6E_00.gregar.sav  # optional, a named one
+```
 
-##### The `authors` field
+```sh
+tango-patch pack my-patch/ -o bn6_allstars/
+```
 
-The list of authors for your patch, formatted as `Your Name <your@email.address>`.
+The output is named `<name>-<version>.tangopatch` from the manifest, so
+you don't choose the filename. `tango-patch validate` checks a package
+(or a source directory) without building anything, and `tango-patch
+info` prints what a package contains.
 
-##### The `source` field
+Packing is deterministic: the same inputs always produce byte-identical
+output, so rebuilding a package you didn't change produces no diff.
 
-The URL to the source of the patch.
+### `roms/`
 
-##### The `license` field
+One BPS patch per ROM you support, named `<GAMECODE>_<REVISION>.bps`.
+For Mega Man Battle Network 6: Cybeast Falzar that's `BR6E_00.bps` —
+`BR6E` is the game code and `00` is the revision (usually `00`).
 
-The license for the patch as an [SPDX license identifier](https://spdx.dev/licenses/). If this is not present, the license is assumed to be `UNLICENSED`.
+Which games your patch supports is read from these files. Nothing in
+`manifest.toml` names a game, so the two can't disagree.
 
-#### The `[versions]` section
+### `saves/`
 
-The versions section contains metadata for each version of your patch. The versions must follow [Semantic Versioning](https://semver.org/).
+Optional starting saves, offered in Tango when creating a new save.
+`BR6E_00.sav` is the default one; `BR6E_00.<name>.sav` is a named one
+(`<name>` may use letters, digits, `_` and `-`). A save template needs
+a matching `roms/` entry.
 
-Version sections are of the format `[versions.'x.y.z']` (note the single quotes!).
+### `manifest.toml`
 
-##### The `netplay_compatibility` field
+```toml
+format = 1
+name = "bn6_allstars"
+version = "1.1.0"
+title = "BN6 All-Stars + BBN6"
+authors = ["Your Name <your@email.address>"]
+license = "MIT"
+source = "https://github.com/luckytyphlosion/bn6-all-stars"
+netplay = "group:bn6allstars"
+```
 
-A string which, if other patches also have set to the same value, allows netplay between them: e.g. all patches with a `netplay_compatibility` of `bn6` may netplay with each other.
+- **`name`** — the directory name, unique in this repository. Letters,
+  digits, `_` and `-`, starting with a letter or digit.
+- **`version`** — [semver](https://semver.org/), without a `v` prefix.
+- **`title`** — what Tango shows in its patch list.
+- **`authors`** — optional, `Your Name <your@email.address>`.
+- **`license`** — optional [SPDX identifier](https://spdx.dev/licenses/).
+  Absent means `UNLICENSED`.
+- **`source`** — optional URL to the patch's source.
+- **`netplay`** — see below. Absent means `"isolated"`.
 
-### Your patch directory
+An unrecognized key is an error rather than something quietly ignored,
+so a typo can't leave your patch subtly misconfigured.
 
-You must place your patch in your directory versioned with [Semantic Versioning](https://semver.org/), prefixed with `v`. For example, if you are releasing version 1.0.1 of your patch, you must label the directory as `v1.0.1`. Within the directory, you must place patches for each ROM you support. For instance, if you intend to support Mega Man Battle Network 6: Cybeast Falzar, you must name the patch `BR6E_00.bps`: `BR6E` is the game ID and `00` is the revision (this is usually `00`).
+#### `netplay`
 
-You may also include a plaintext file named README that will be displayed in the patch information in the Tango launcher.
+Who this version of your patch can play against. Exactly one of:
 
-**Once a patch version is submitted, you may not delete it unless it contains sensitive information.** This is such to ensure replays on older versions may always be played.
+| value | meaning |
+|---|---|
+| `"isolated"` | only the identical patch at the identical version (the default) |
+| `"vanilla"` | the unpatched game, and any other `vanilla` patch for it |
+| `"group:NAME"` | anything else declaring the same group |
+
+**`"isolated"`** is the default because it's the safe one: two players
+running gameplay code that differs at all will desync, and failing to
+match is much better than desyncing mid-match. If your patch changes
+anything about how the game plays, leave it alone.
+
+**`"vanilla"`** is for patches that change *nothing* about gameplay —
+translations, music, cosmetics. Someone using it can play someone with
+no patch at all.
+
+**`"group:NAME"`** is how you opt into playing something else: pick a
+name and share it. Use it to let versions of your patch play each other
+(don't change the group when you release a version that stays
+compatible with the last), or to keep separate patches — a JP and an EN
+release of the same mod, say — in lockstep. Group names use the same
+characters as patch names.
+
+You never write a game or family name here. Compatibility is scoped to
+the ROM being played automatically, so a group called `bn6` is not the
+same as `"vanilla"` on BN6, and a package that patches both BN4 and BN6
+ROMs can't accidentally match a BN4 player against a BN6 one.
+
+#### `[rom_overrides]`
+
+Optional, for translation patches: replacement text the patched ROM
+can't supply itself.
+
+```toml
+[rom_overrides]
+language = "en-US"
+charset = [" ", "0", "1", "..."]
+chips = [{ name = "Cannon", description = "Fires a shot." }]
+navicust_parts = [{ name = "HP+100" }]
+styles = [{ name = "Normal" }]
+patch_card56s = [{ name = "..." }]
+patch_card56_effects = [{ name_template = [{ t = "Attack +" }, { p = 1 }] }]
+```
+
+Each list is indexed by in-game id, so entry 0 overrides id 0. `p = 1`
+in an effect template inserts that effect's parameter.
+
+## Releasing a new version
+
+Build a new package and commit it alongside the old ones. Don't touch
+the ones already there.
+
+**Once a patch version is published, it may not be deleted** unless it
+contains sensitive information — replays record the patch they were
+recorded with, and Tango downloads that exact version to play them
+back. A version you delete is a replay nobody can watch again.
+
+## What CI does
+
+On push to `main`, GitHub Actions validates every package, generates
+`index.json` and the README sidecars from them, and publishes the
+directory to GitHub Pages. Those generated files aren't committed —
+that's what keeps two patch submissions from conflicting with each
+other.
+
+`index.json` is the only file Tango polls. It lists every package with
+its size, hash and netplay compatibility, so the app can show you the
+whole repository, and check whether you can play someone, without
+downloading any patches.

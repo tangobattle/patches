@@ -1,8 +1,0 @@
-[patch]
-title = "BN2 Português Brasileiro"
-authors = ["Sahgo"]
-source = "https://www.romhacking.net.br/index.php?topic=2590.0"
-
-[versions.'1.2.0']
-netplay_compatibility = "bn2"
-

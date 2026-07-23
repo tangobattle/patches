@@ -1,7 +1,0 @@
-[patch]
-title = "BN4 Português Brasileiro"
-authors = ["Sahgo"]
-source = "https://www.romhacking.net.br/index.php?topic=3206.0"
-
-[versions.'1.0.0']
-netplay_compatibility = "bn4"

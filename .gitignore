@@ -1,0 +1,5 @@
+# Both are built from the committed packages at deploy time (see
+# .github/workflows/pages.yml). Committing them would mean every patch
+# submission conflicted with every other one in index.json.
+/index.json
+*.README.md

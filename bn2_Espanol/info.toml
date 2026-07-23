@@ -1,8 +1,0 @@
-[patch]
-title = "BN2 Español"
-authors = ["MNTWFL TRANSLATIONS"]
-source = "https://www.facebook.com/Megaman.Exe.FanClub"
-
-[versions.'1.5.0']
-netplay_compatibility = "bn2"
-
