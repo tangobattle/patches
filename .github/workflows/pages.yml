@@ -24,27 +24,22 @@ jobs:
         steps:
             - uses: actions/checkout@v4
 
-            # The bundler lives in the tango repo. Only its own directory
-            # is checked out, and without submodules: the tango workspace
-            # depends on the private `gamesupport` submodule, which a
-            # public runner can't clone. `tango-patch` is its own
-            # workspace root precisely so this works.
-            - uses: actions/checkout@v4
-              with:
-                  repository: tangobattle/tango
-                  path: .tango
-                  sparse-checkout: tango-patch
-                  sparse-checkout-cone-mode: false
-
+            # Cache the crate sources so we don't re-download the
+            # bundler's dependencies on every run. tango-patch itself is
+            # small and pure Rust, so rebuilding it is cheap; keying on
+            # this workflow file is enough to bust the cache deliberately.
             - uses: actions/cache@v4
               with:
                   path: |
                       ~/.cargo/registry
                       ~/.cargo/git
-                      ~/.cargo/bin/tango-patch
-                  key: tango-patch-${{ hashFiles('.tango/tango-patch/Cargo.lock', '.tango/tango-patch/src/**') }}
+                  key: tango-patch-${{ hashFiles('.github/workflows/pages.yml') }}
 
-            - run: cargo install --path .tango/tango-patch --features cli --locked
+            # The bundler lives in its own repo (tangobattle/tango-patch),
+            # so we install it straight from git — no checkout of the
+            # tango tree, no submodules. `--locked` uses that repo's
+            # committed Cargo.lock for a reproducible build.
+            - run: cargo install --git https://github.com/tangobattle/tango-patch --features cli --locked
 
             # Every package must be well-formed before anything ships:
             # a package that fails to open here would fail to open in

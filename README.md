@@ -22,8 +22,7 @@ bn6_allstars/
 Installing the tool:
 
 ```sh
-git clone https://github.com/tangobattle/tango
-cargo install --path tango/tango-patch --features cli
+cargo install --git https://github.com/tangobattle/tango-patch --features cli
 ```
 
 ### Building your package
