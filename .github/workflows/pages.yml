@@ -24,11 +24,24 @@ jobs:
         steps:
             - uses: actions/checkout@v4
 
-            # Cache the crate sources so we don't re-download the
-            # bundler's dependencies on every run. tango-patch itself is
-            # small and pure Rust, so rebuilding it is cheap; keying on
-            # this workflow file is enough to bust the cache deliberately.
+            # `cargo install` builds in a throwaway directory, so it
+            # recompiles the bundler and every dependency on each run.
+            # Instead, cache the compiled binary keyed on the bundler
+            # repo's current commit: the build only happens when the
+            # tool itself changes.
+            - id: tango-patch-rev
+              run: echo "rev=$(git ls-remote https://github.com/tangobattle/tango-patch HEAD | cut -f1)" >> "$GITHUB_OUTPUT"
+
             - uses: actions/cache@v4
+              id: tango-patch-bin
+              with:
+                  path: ~/.cargo/bin/tango-patch
+                  key: tango-patch-bin-${{ runner.os }}-${{ runner.arch }}-${{ steps.tango-patch-rev.outputs.rev }}
+
+            # Crate sources, only worth restoring on the runs that
+            # actually build.
+            - uses: actions/cache@v4
+              if: steps.tango-patch-bin.outputs.cache-hit != 'true'
               with:
                   path: |
                       ~/.cargo/registry
@@ -40,6 +53,7 @@ jobs:
             # tango tree, no submodules. `--locked` uses that repo's
             # committed Cargo.lock for a reproducible build.
             - run: cargo install --git https://github.com/tangobattle/tango-patch --features cli --locked
+              if: steps.tango-patch-bin.outputs.cache-hit != 'true'
 
             # Every package must be well-formed before anything ships:
             # a package that fails to open here would fail to open in
